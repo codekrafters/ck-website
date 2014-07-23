@@ -1,0 +1,932 @@
+// ----
+// Sass (v3.3.9)
+// Compass (v1.0.0.alpha.20)
+// ----
+
+@import "compass";
+// Color Swatch
+
+// Swatch name
+// !IMPORTANT You can change that. If you give as a name "custom" 
+// the swatch is going to have the class name "swatch-custom"
+$swatch-name: "custom";
+
+// Swatch colors - modify them to create your own swatch
+$text-color: #444444;                // text color
+$header-color: #222222;              // Header color
+$small-color: #666666;               // Small color
+$icon-color: #222222;                // Icon color
+ 
+$link-color: #e74c3c;                // Link color
+$link-color-hover: #cd3d2e;          // Link color hover
+$link-color-active: #cd3d2e;         // Link color active
+$link-header: #e74c3c;               // Link header color
+ 
+$background: #ffffff;                // Background color
+$background-reverse: #e74c3c;        // Background reverse
+$overlay: rgba(0,0,0,.07);           // Overlay color
+ 
+$form-background: #e9eeef;           // Form background color
+$form-color: #666666;                // Form text color
+$form-active: #cddadd;               // Form active
+$primary-button-background: #e74c3c; // Primary button background
+$primary-button-text: #ffffff;       // Primary button text
+
+
+
+
+// Dont change after that
+.swatch-#{$swatch-name}, [class*="swatch-"] .swatch-#{$swatch-name} {
+  background: $background;
+  color: $text-color;
+
+  // Section decorations
+  .decor {
+    fill: $background;
+    stroke: $background-reverse;
+  }
+
+  // Basic typography
+  h1, h2, h3, h4, h5, h6 {
+    color: $header-color;
+    a {
+      color: $link-header;
+    }
+    small {
+      color: $text-color;
+    }
+  }
+  a{
+    color: $link-color;
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+  small {
+    color: $small-color;
+    a {
+      color: $small-color;
+    }
+    a:hover {
+      color: $link-color;
+    }
+  }
+  i {
+    color: $icon-color;
+  }
+  blockquote {
+    border-color: $overlay;
+    small {
+      color: $header-color;
+    }
+  }
+  ::selection {
+    background: $background-reverse;
+    color: $background;
+    }
+  ::-moz-selection {
+    background: $background-reverse;
+    color: $background;
+  }
+
+  // hr
+  hr {
+    border-top-color: $overlay;
+  }
+
+  // Pre
+  pre {
+    background: $text-color;
+    color: $background;
+  }
+
+  // Section Headers
+  .section-header:after, .bordered-header:after {
+    background: $background-reverse;
+  }
+
+  // Other links
+  .active {
+    color: $link-color-active;
+  }
+
+
+  // Buttons
+  .btn-primary, button, input[type="submit"] {
+    background-color: $primary-button-background;
+    color: $primary-button-text;
+    &:hover {
+      background-color: rgba($primary-button-background, .9);
+      color: $primary-button-text;
+    }
+    &.btn-icon-right:after {
+      border-left-color: $primary-button-background;
+    }
+    &.btn-icon-left:after {
+      border-right-color: $primary-button-background;
+    }
+    &.btn-icon-right:hover:after {
+        border-left-color: rgba($primary-button-background, .9);
+    }
+    &.btn-icon-left:hover:after {
+        border-right-color: rgba($primary-button-background, .9);
+    }
+    .hex-alt {
+      background: rgba($primary-button-text, .2);
+      &:before {
+        border-right-color: rgba($primary-button-text, .2);
+      }
+      &:after {
+        border-left-color: rgba($primary-button-text, .2);
+      }
+      i {
+        color: #fff !important;
+      }
+    }
+  }
+  .btn-link {
+    text-decoration: none;
+    box-shadow: 0px 0px 0px 1px $link-color inset;
+    &:hover {
+      text-decoration: none;
+      color: $link-color;
+      background: rgba($primary-button-background, .05);
+    }
+  }
+
+  // Forms
+  select, textarea, input, .uneditable-input, .input-group-btn {
+    background: $form-background;
+    color: $form-color;
+    &:-moz-placeholder {
+      color: lighten($form-color, 5%);
+    }
+    &::-moz-placeholder {
+      color: lighten($form-color, 5%);
+    }
+    &:-ms-input-placeholder {
+      color: lighten($form-color, 5%);
+    }
+    &::-webkit-input-placeholder {
+      color: lighten($form-color, 5%);
+    }
+  }
+  input:focus, textarea:focus, .form-control:focus {
+    @include box-shadow(0px 3px 0px $form-active);
+  }
+  .form-icon-group i {
+    color: $primary-button-background;
+  }
+  input[type="button"] {
+    background: $primary-button-background;
+    color: $primary-button-text;
+  }
+
+  // Tables
+  .table th {
+    background-color: $background-reverse;
+    text-transform: uppercase;
+    color: $background;
+  }
+  &.table th {
+    color: $background;
+    background-color: $background-reverse;
+  }
+  .table th, .table td, .table-bordered {
+    border-color: $overlay;
+  }
+  .table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th, .table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th {
+    background: $overlay;
+  }
+
+  // Navbar
+  &.navbar {
+    background: $background;
+    color: $header-color;
+  }
+  &.navbar .navbar-brand {
+    color: $header-color;
+    &:hover {
+      color: $header-color;
+    }
+  }
+  &.navbar .nav > li > a {
+    color: $link-color;
+    &:hover, &:focus {
+      background: none;
+    }
+    &:before {
+      background-color: $link-color;
+    }
+  }
+  & .navbar-toggle {
+    background: none;
+    .icon-bar {
+      background-color: $header-color;
+    }
+    &:hover {
+      background: none;
+    }
+  }
+  &.navbar .nav > .active > a,
+  &.navbar .nav > .current-menu-item > a
+  &.navbar .nav > .active > a:hover,
+  &.navbar .nav > .current-menu-item > a:hover,
+  &.navbar .nav > .active > a:focus,
+  &.navbar .nav > .current-menu-item > a:focus,
+  &.navbar .nav > li > a:focus,
+  &.navbar .nav > li > a:hover,
+  &.navbar .nav li.dropdown.open > .dropdown-toggle,
+  &.navbar .nav li.dropdown.active > .dropdown-toggle,
+  &.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    color: $header-color;
+  }
+  & .dropdown-menu {
+    background: rgba($background, .95);
+    @include box-shadow(0px 1px 2px rgba(#000, .1), 0px 4px 0px rgba(darken($background , 8%), .3));
+    >li > a {
+      color: $header-color;
+    }
+  }
+  & .dropdown-menu a:hover , & .dropdown-menu > .active > a, & .dropdown-menu > .active > a:hover, & .dropdown-menu > .active > a:focus {
+    background: $background-reverse;
+    color: $background;
+    i {
+      color: $background;
+    }
+  }
+  &.navbar .nav > li > .dropdown-menu:after, &.navbar .nav > li > .dropdown-menu:before {
+    display: none;
+  }
+  &.navbar-scrolled {
+    background: rgba($background, .95);
+  }
+  &.navbar-scrolled {
+    @include box-shadow(0px 4px 0px rgba(darken($background, 8%), .3));
+  }
+  .dropdown-submenu>a:after {
+    border-left-color: $header-color !important;
+  }
+  .dropdown-submenu>a:hover:after {
+    border-left-color: $background !important;
+  }
+  .dropdown-menu .divider  {
+    background-color: $overlay;
+  }
+
+  &.navbar .nav-highlight > a {
+    color: $background !important;
+    &:after {
+      background: $link-color;
+    }
+    &:hover {
+      color: $background !important;
+      &:after {
+        background: rgba($link-color, .8);
+      }
+    }
+  }
+  &.navbar li.nav-highlight-ghost > a {
+    color: $link-color;
+    &:after {
+      border: 1px solid $link-color;
+    }
+    &:hover {
+      color: rgba($link-color, .8);
+      &:after {
+        border-color: rgba($link-color, .8);
+      }
+    }
+  }
+
+  @media (max-width: 979px) {
+    &.navbar .nav > li > a {
+      border-radius: 0;
+      &:hover {
+        background: darken($background, 5%);
+        color: $header-color;
+      }
+    }
+    &.navbar .dropdown-menu {
+      background: darken($background, 5%);
+      border-radius: 0;
+      box-shadow: none;
+      > li > a {
+        border-radius: 0;
+        color: $header-color;
+      }
+      li > a:hover, li > a:focus, li.active > a {
+        background: darken($background, 8%);
+      }
+    }
+    .dropdown-submenu > ul > li > a {
+      background: darken($background, 10%);
+    }
+    .dropdown-submenu > ul > li > a:hover {
+      background: darken($background, 5%);
+    }
+    .dropdown-submenu>a:after {
+      border-left-color: transparent !important;
+      border-top-color: $header-color !important;
+    }
+    &.navbar .nav-highlight > a {
+      color: $link-color !important;
+      &:after {
+        background: transparent;
+      }
+      &:hover {
+        color: $link-color !important;
+        &:after {
+          background: transparent;
+        }
+      }
+    }
+  }
+
+  // Pagination
+  .pagination > li > a {
+    background: $primary-button-background;
+    color: $primary-button-text;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > li > a:hover {
+    background: rgba($primary-button-background, .8);
+    i {
+      color: $primary-button-text;
+    }
+  }
+  .pagination >li:first-child {
+    i {
+      color: $primary-button-text;
+    }
+    a:after {
+      border-right-color: $primary-button-background;
+    }
+    a:hover {
+      background: rgba($primary-button-background, .8);
+      &:after {
+        border-right-color: rgba($primary-button-background, .8);
+      }
+    }
+  }
+  .pagination >li:last-child {
+    i {
+      color: $primary-button-text;
+    }
+    a:after {
+      border-left-color: $primary-button-background;
+    }
+    a:hover {
+      background: rgba($primary-button-background, .8);
+      &:after {
+        border-left-color: rgba($primary-button-background, .8);
+      }
+    }
+  }
+
+  // Tooltips
+  .tooltip-inner {
+    background-color: $background-reverse;
+    color: $background;
+  }
+  .tooltip {
+    &.in {
+      opacity: 1;
+    }
+    &.top .tooltip-arrow {
+      border-top-color: $background-reverse;
+    }
+    &.right .tooltip-arrow {
+      border-right-color: $background-reverse;
+    }
+    &.left .tooltip-arrow {
+      border-left-color: $background-reverse;
+    }
+    &.bottom .tooltip-arrow {
+      border-bottom-color: $background-reverse;
+    }
+  }
+
+  // Progress bars
+  .progress {
+    background: $overlay;
+    box-shadow: none;
+    .progress-bar-primary {
+      background: $primary-button-background;
+      box-shadow: none;
+      span {
+        color: $primary-button-text;
+      }
+    }
+  }
+  // Badges
+  .badge {
+    background: $background-reverse;
+    color: $background;
+  }
+
+  // Tabs & Pills
+  .tab-content, .nav-tabs .active a, .tab-content, .nav-tabs .active a:hover {
+    background: $background-reverse;
+  }
+  .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+    color: $background;
+    background-color: $background-reverse;
+  }
+  .nav-tabs >li.active > a {
+    color: $background;
+    &:hover {
+      color: $background;
+    }
+  }
+  .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > li > a:hover {
+    background: $background-reverse;
+    color: $background;
+    .badge {
+      background: $background;
+      color: $background-reverse;
+    }
+    &:hover {
+      color: $background;
+    }
+  }
+  .tab-pane, .tab-pane.active {
+    color: $background;
+    h1, h2, h3, h4, h5, h6, a, p {
+      color: $background;
+    }
+    .btn {
+      color: $background-reverse !important;
+      background: $background !important;
+    }
+    .tooltip-inner {
+      background-color: $background;
+      color: $background-reverse;
+    }
+    .tooltip {
+      &.top .tooltip-arrow {
+        border-top-color: $background;
+      }
+      &.right .tooltip-arrow {
+        border-right-color: $background;
+      }
+      &.left .tooltip-arrow {
+        border-left-color: $background;
+      }
+      &.bottom .tooltip-arrow {
+        border-bottom-color: $background;
+      }
+    }
+  }
+
+  // Affix
+  .docs-sidebar-nav, &.docs-sidebar-nav {
+    background: none;
+    li a {
+      background: $overlay;
+    }
+    li.active a {
+      background: $link-color;
+      color: $background;
+    }
+  }
+
+  // Panels
+  .panel, .well {
+    background: $overlay;
+  }
+  .panel-heading {
+    background: $background-reverse;
+    a, .panel-title{
+      color: $background;
+      text-decoration: none;
+    }
+  }
+
+  // Carousel
+  .carousel-indicators li {
+    background-color: rgba($background-reverse, .5);
+  }
+  .carousel-indicators li.active {
+    background-color: rgba($background-reverse, 1);
+  }
+
+  // Thumbnails
+  .thumbnail {
+    background: $overlay;
+    &:hover {
+      background: $background-reverse;
+      color: $background;
+    }
+  }
+
+  // Misc elements
+  .overlay {
+    background: $overlay !important;
+  }
+  .post-media {
+    background-color: $overlay !important;
+  }
+  .media-inner:after {
+    background: $background-reverse;
+  }
+  .social-icons li a, .social-share li a {
+    background-color: $background-reverse;
+    i {
+      color: $background;
+    }
+    &:not([data-iconcolor]):hover {
+      background-color: rgba($background-reverse, .8);
+    }
+  }
+  .social-simple li a i {
+    color: $background-reverse;
+  }
+  .social-simple li a:not([data-iconcolor]):hover i {
+    color: rgba($icon-color, .8);
+  }
+  .grid-post .post-extras:before {
+    background: $background;
+  }
+  .post-extras i {
+    color: $link-color;
+  }
+  .list-fancy-icons li, &.list-fancy-icons li, .list-fancy-icons .list-item, &.list-fancy-icons .list-item {
+    background: $background;
+    .round, .square {
+      background: $background-reverse;
+    }
+    i {
+      color: $background;
+    }
+  }
+  .box-inner {
+    background: $background-reverse;
+    i {
+      color: $background;
+    }
+  }
+  .box-badge {
+    background: rgba($background-reverse, .9);
+    color: $background;
+  }
+  .bordered:after {
+    background: $background-reverse;
+  }
+  .vertical-icon-border [class^="col-md"]:first-child, .horizontal-icon-border [class^="box-"]:before {
+    border-color: $background-reverse;
+  }
+  #infscr-loading {
+    background: $background-reverse;
+    color: $background;
+  }
+  .counter .value {
+    color: $header-color;
+  }
+  .counter.underline:after {
+    background: $background-reverse;
+  }
+  .countdown.underline b:before {
+    background: $background-reverse;
+  }
+
+  // Audio player
+  // Audio player
+  .mejs-audio {
+    background-color: $background-reverse;
+    color: $background;
+  }
+  .mejs-container .mejs-controls .mejs-time span {
+    color: $background;
+  }
+  .mejs-controls .mejs-button button:hover {
+    background-color: transparent;
+  }
+  .mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background-color: $background;
+  }
+  .mejs-controls .mejs-time-rail .mejs-time-current, .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background-color: $overlay;
+  }
+
+
+  // Hexagon
+  .hex {
+    background-color: $background-reverse;
+    color: $background;
+    a, i {
+      color: $background;
+    }
+    a:hover, &:hover {
+      color: $background;
+    }
+    &:before {
+      border-bottom-color: $background-reverse;
+    }
+    &:after {
+      border-top-color: $background-reverse;
+    }
+  }
+
+  // Hexagon Portfolio
+  .hex-left:after, .hex-left:before, .hex-right:after, .hex-right:before  {
+    background-color: $background;
+  }
+
+  // Pricing tables
+  .pricing-head, .pricing-body {
+    background: $primary-button-background;
+    color: $primary-button-text;
+    h4, small {
+      color: $primary-button-text;
+    }
+  }
+  .pricing-list li {
+    border-color: $overlay;
+  }
+  .pricing-col .btn-primary {
+    background: $primary-button-text;
+    color: $primary-button-background;
+    &:hover {
+      background: darken($primary-button-text, 6%);
+    }
+  }
+
+  // Flexslider
+  .flexslider figcaption {
+    background: rgba($background, .9);
+    @include box-shadow(0px 4px 0px rgba(darken($background , 8%), .3));
+  }
+
+  .flex-directions-fancy .flex-direction-nav a {
+    background: $background-reverse;
+    color: $background;
+  }
+  .flex-control-nav a {
+    background: rgba($background-reverse, .5);
+  }
+  .flex-control-nav a.flex-active {
+    background: rgba($background-reverse, 1);
+  }
+
+  // Widgets
+  .sidebar  {
+    color: $text-color;
+    h3 {
+      color: $header-color;
+    }
+    a {
+      color: $text-color;
+    }
+    a:hover {
+      color: $link-color;
+    }
+  }
+  .widget_search {
+    .btn {
+      background: $form-active;
+      i {
+        color: $icon-color !important;
+      }
+    }
+  }
+  .sidebar-widget .post-icon {
+    background: $background-reverse;
+    i {
+      color: $background;
+    }
+  }
+  .widget_tag_cloud ul a {
+    background: $background-reverse;
+    color: $background;
+    &:hover {
+      background: rgba($background-reverse, .9);
+      color: $background;
+    }
+  }
+  .widget_calendar {
+    tbody a {
+      background: $background-reverse;
+      color: $background;
+      &:hover {
+        background: darken($background-reverse, 7%);
+        color: $background;
+      }
+    }
+    tfoot {
+      background: $overlay;
+    }
+  }
+  .widget_nav_menu .sub-menu {
+    border-color: $overlay;
+  }
+  .widget_oxy_twitter li:before {
+    color: $background-reverse;
+  }
+
+  // WOO commerce
+
+  // - buttons
+  .button {
+    background: $primary-button-background;
+    color: $primary-button-text;
+    &:hover {
+      background: rgba($primary-button-background, .9);
+      color: $primary-button-text;
+    }
+  }
+
+  // - Breadcrumbs
+  .woocommerce-breadcrumb {
+    color: $primary-button-text;
+    a {
+      color: $primary-button-text;
+    }
+    a:hover {
+     color: $primary-button-text;
+    }
+    span:nth-child(1) {
+      background: $primary-button-background;
+      &:after {
+        border-left-color: $primary-button-background;
+      }
+      &:hover {
+        background: darken($primary-button-background, 5%);
+        &:after {
+          border-left-color: darken($primary-button-background, 5%);
+        }
+      }
+    }
+    span:nth-child(2) {
+      background: lighten($primary-button-background, 5%);
+      &:after {
+        border-left-color: lighten($primary-button-background, 5%);
+      }
+      &:hover {
+        background: lighten($primary-button-background, 3%);
+        &:after {
+          border-left-color: lighten($primary-button-background, 3%);
+        }
+      }
+    }
+    span:nth-child(3) {
+      background: lighten($primary-button-background, 10%);
+      &:after {
+        border-left-color: lighten($primary-button-background, 10%);
+      }
+      &:hover {
+        background: lighten($primary-button-background, 7%);
+        &:after {
+          border-left-color: lighten($primary-button-background, 7%);
+        }
+      }
+    }
+    span:nth-child(4) {
+      background: lighten($primary-button-background, 15%);
+      &:after {
+        border-left-color: lighten($primary-button-background, 15%);
+      }
+      &:hover {
+        background: lighten($primary-button-background, 12%);
+        &:after {
+          border-left-color: lighten($primary-button-background, 12%);
+        }
+      }
+    }
+    span:nth-child(5) {
+      background: lighten($primary-button-background, 20%);
+      &:after {
+        border-left-color: lighten($primary-button-background, 20%);
+      }
+      &:hover {
+        background: lighten($primary-button-background, 17%);
+        &:after {
+          border-left-color: lighten($primary-button-background, 17%);
+        }
+      }
+    }
+  }
+
+  // - Product list oredring
+  .woocommerce-ordering {
+    select {
+      background: $primary-button-background;
+      color: $primary-button-text;
+    }
+    .select-wrap:after {
+      color: $primary-button-text;
+    }
+  }
+  // - Product title
+  .product .product-title:after {
+    background: $background-reverse;
+  }
+  .star-rating {
+    color: $background-reverse;
+  }
+
+  // - On sale
+  .onsale {
+    background: $primary-button-background;
+    color: $primary-button-text;
+  }
+  // - Pagination
+  .page-numbers {
+    a, span {
+      color: $primary-button-text;
+    }
+    li {
+      background: $primary-button-background;
+    }
+    .current, li a:hover {
+      background: $overlay;
+    }
+  }
+  .pager li > a:focus {
+    background: $primary-button-background;
+    color: $primary-button-text;
+  }
+
+  // Product category
+  .product-category h3 {
+    background: $background-reverse;
+    color: $background;
+    mark {
+      background: $overlay;
+      color: $background;
+    }
+  }
+  // - Product nav
+  .product-nav {
+    a i {
+      background: $background-reverse;
+      color: $background;
+    }
+  }
+  .product-images figcaption {
+    box-shadow: none;
+    background: $primary-button-background;
+    i{
+      color: $primary-button-text;
+    }
+  }
+  .product-images .flex-active {
+    @include box-shadow(0px 3px 0px $background-reverse);
+  }
+  .order_details {
+    background: $overlay;
+    li {
+      border-color: lighten($overlay, 10%);
+    }
+  }
+
+  // Product reviews
+  .single-product-extras {
+    input, textarea {
+      background: $background;
+      color: $background-reverse;
+    }
+    input[type="submit"]:hover {
+      background: rgba($background, .9);
+      color: $background-reverse;
+    }
+  }
+  #review_form:before {
+    background: darken($background-reverse, 10%);
+  }
+  // - Side cart
+  &.mini-cart-container.active {
+    box-shadow: -10px 0px 0px rgba(darken($background , 8%), .3);
+  }
+  .cart_list li {
+    border-color: $overlay;
+  }
+  .cart-actions {
+    background: $background;
+  }
+
+  // - Woocommerce widgets
+  .widget_product_tag_cloud {
+    a {
+      background: $background-reverse;
+      color: $background;
+      &:hover {
+        background: rgba($background-reverse, .9);
+        color: $background;
+      }
+    }
+  }
+  .product_list_widget .star-rating {
+    color: $link-color;
+  }
+  .widget_price_filter .ui-slider {
+    .ui-slider-range {
+      background: $overlay;
+    }
+    .ui-slider-handle {
+      background: $background-reverse;
+    }
+  }
+  .widget_product_search form:after {
+    color: $background;
+  }
+}

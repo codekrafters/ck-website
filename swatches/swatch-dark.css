@@ -1,0 +1,797 @@
+.swatch-custom, [class*="swatch-"] .swatch-custom {
+  background: white;
+  color: #444444;
+}
+.swatch-custom .decor, [class*="swatch-"] .swatch-custom .decor {
+  fill: white;
+  stroke: #e74c3c;
+}
+.swatch-custom h1, .swatch-custom h2, .swatch-custom h3, .swatch-custom h4, .swatch-custom h5, .swatch-custom h6, [class*="swatch-"] .swatch-custom h1, [class*="swatch-"] .swatch-custom h2, [class*="swatch-"] .swatch-custom h3, [class*="swatch-"] .swatch-custom h4, [class*="swatch-"] .swatch-custom h5, [class*="swatch-"] .swatch-custom h6 {
+  color: #222222;
+}
+.swatch-custom h1 a, .swatch-custom h2 a, .swatch-custom h3 a, .swatch-custom h4 a, .swatch-custom h5 a, .swatch-custom h6 a, [class*="swatch-"] .swatch-custom h1 a, [class*="swatch-"] .swatch-custom h2 a, [class*="swatch-"] .swatch-custom h3 a, [class*="swatch-"] .swatch-custom h4 a, [class*="swatch-"] .swatch-custom h5 a, [class*="swatch-"] .swatch-custom h6 a {
+  color: #e74c3c;
+}
+.swatch-custom h1 small, .swatch-custom h2 small, .swatch-custom h3 small, .swatch-custom h4 small, .swatch-custom h5 small, .swatch-custom h6 small, [class*="swatch-"] .swatch-custom h1 small, [class*="swatch-"] .swatch-custom h2 small, [class*="swatch-"] .swatch-custom h3 small, [class*="swatch-"] .swatch-custom h4 small, [class*="swatch-"] .swatch-custom h5 small, [class*="swatch-"] .swatch-custom h6 small {
+  color: #444444;
+}
+.swatch-custom a, [class*="swatch-"] .swatch-custom a {
+  color: #e74c3c;
+}
+.swatch-custom a:hover, [class*="swatch-"] .swatch-custom a:hover {
+  color: #cd3d2e;
+}
+.swatch-custom small, [class*="swatch-"] .swatch-custom small {
+  color: #666666;
+}
+.swatch-custom small a, [class*="swatch-"] .swatch-custom small a {
+  color: #666666;
+}
+.swatch-custom small a:hover, [class*="swatch-"] .swatch-custom small a:hover {
+  color: #e74c3c;
+}
+.swatch-custom i, [class*="swatch-"] .swatch-custom i {
+  color: #222222;
+}
+.swatch-custom blockquote, [class*="swatch-"] .swatch-custom blockquote {
+  border-color: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom blockquote small, [class*="swatch-"] .swatch-custom blockquote small {
+  color: #222222;
+}
+.swatch-custom ::selection, [class*="swatch-"] .swatch-custom ::selection {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom ::-moz-selection, [class*="swatch-"] .swatch-custom ::-moz-selection {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom hr, [class*="swatch-"] .swatch-custom hr {
+  border-top-color: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom pre, [class*="swatch-"] .swatch-custom pre {
+  background: #444444;
+  color: white;
+}
+.swatch-custom .section-header:after, .swatch-custom .bordered-header:after, [class*="swatch-"] .swatch-custom .section-header:after, [class*="swatch-"] .swatch-custom .bordered-header:after {
+  background: #e74c3c;
+}
+.swatch-custom .active, [class*="swatch-"] .swatch-custom .active {
+  color: #cd3d2e;
+}
+.swatch-custom .btn-primary, .swatch-custom button, .swatch-custom input[type="submit"], [class*="swatch-"] .swatch-custom .btn-primary, [class*="swatch-"] .swatch-custom button, [class*="swatch-"] .swatch-custom input[type="submit"] {
+  background-color: #e74c3c;
+  color: white;
+}
+.swatch-custom .btn-primary:hover, .swatch-custom button:hover, .swatch-custom input[type="submit"]:hover, [class*="swatch-"] .swatch-custom .btn-primary:hover, [class*="swatch-"] .swatch-custom button:hover, [class*="swatch-"] .swatch-custom input[type="submit"]:hover {
+  background-color: rgba(231, 76, 60, 0.9);
+  color: white;
+}
+.swatch-custom .btn-primary.btn-icon-right:after, .swatch-custom button.btn-icon-right:after, .swatch-custom input[type="submit"].btn-icon-right:after, [class*="swatch-"] .swatch-custom .btn-primary.btn-icon-right:after, [class*="swatch-"] .swatch-custom button.btn-icon-right:after, [class*="swatch-"] .swatch-custom input[type="submit"].btn-icon-right:after {
+  border-left-color: #e74c3c;
+}
+.swatch-custom .btn-primary.btn-icon-left:after, .swatch-custom button.btn-icon-left:after, .swatch-custom input[type="submit"].btn-icon-left:after, [class*="swatch-"] .swatch-custom .btn-primary.btn-icon-left:after, [class*="swatch-"] .swatch-custom button.btn-icon-left:after, [class*="swatch-"] .swatch-custom input[type="submit"].btn-icon-left:after {
+  border-right-color: #e74c3c;
+}
+.swatch-custom .btn-primary.btn-icon-right:hover:after, .swatch-custom button.btn-icon-right:hover:after, .swatch-custom input[type="submit"].btn-icon-right:hover:after, [class*="swatch-"] .swatch-custom .btn-primary.btn-icon-right:hover:after, [class*="swatch-"] .swatch-custom button.btn-icon-right:hover:after, [class*="swatch-"] .swatch-custom input[type="submit"].btn-icon-right:hover:after {
+  border-left-color: rgba(231, 76, 60, 0.9);
+}
+.swatch-custom .btn-primary.btn-icon-left:hover:after, .swatch-custom button.btn-icon-left:hover:after, .swatch-custom input[type="submit"].btn-icon-left:hover:after, [class*="swatch-"] .swatch-custom .btn-primary.btn-icon-left:hover:after, [class*="swatch-"] .swatch-custom button.btn-icon-left:hover:after, [class*="swatch-"] .swatch-custom input[type="submit"].btn-icon-left:hover:after {
+  border-right-color: rgba(231, 76, 60, 0.9);
+}
+.swatch-custom .btn-primary .hex-alt, .swatch-custom button .hex-alt, .swatch-custom input[type="submit"] .hex-alt, [class*="swatch-"] .swatch-custom .btn-primary .hex-alt, [class*="swatch-"] .swatch-custom button .hex-alt, [class*="swatch-"] .swatch-custom input[type="submit"] .hex-alt {
+  background: rgba(255, 255, 255, 0.2);
+}
+.swatch-custom .btn-primary .hex-alt:before, .swatch-custom button .hex-alt:before, .swatch-custom input[type="submit"] .hex-alt:before, [class*="swatch-"] .swatch-custom .btn-primary .hex-alt:before, [class*="swatch-"] .swatch-custom button .hex-alt:before, [class*="swatch-"] .swatch-custom input[type="submit"] .hex-alt:before {
+  border-right-color: rgba(255, 255, 255, 0.2);
+}
+.swatch-custom .btn-primary .hex-alt:after, .swatch-custom button .hex-alt:after, .swatch-custom input[type="submit"] .hex-alt:after, [class*="swatch-"] .swatch-custom .btn-primary .hex-alt:after, [class*="swatch-"] .swatch-custom button .hex-alt:after, [class*="swatch-"] .swatch-custom input[type="submit"] .hex-alt:after {
+  border-left-color: rgba(255, 255, 255, 0.2);
+}
+.swatch-custom .btn-primary .hex-alt i, .swatch-custom button .hex-alt i, .swatch-custom input[type="submit"] .hex-alt i, [class*="swatch-"] .swatch-custom .btn-primary .hex-alt i, [class*="swatch-"] .swatch-custom button .hex-alt i, [class*="swatch-"] .swatch-custom input[type="submit"] .hex-alt i {
+  color: #fff !important;
+}
+.swatch-custom .btn-link, [class*="swatch-"] .swatch-custom .btn-link {
+  text-decoration: none;
+  box-shadow: 0px 0px 0px 1px #e74c3c inset;
+}
+.swatch-custom .btn-link:hover, [class*="swatch-"] .swatch-custom .btn-link:hover {
+  text-decoration: none;
+  color: #e74c3c;
+  background: rgba(231, 76, 60, 0.05);
+}
+.swatch-custom select, .swatch-custom textarea, .swatch-custom input, .swatch-custom .uneditable-input, .swatch-custom .input-group-btn, [class*="swatch-"] .swatch-custom select, [class*="swatch-"] .swatch-custom textarea, [class*="swatch-"] .swatch-custom input, [class*="swatch-"] .swatch-custom .uneditable-input, [class*="swatch-"] .swatch-custom .input-group-btn {
+  background: #e9eeef;
+  color: #666666;
+}
+.swatch-custom select:-moz-placeholder, .swatch-custom textarea:-moz-placeholder, .swatch-custom input:-moz-placeholder, .swatch-custom .uneditable-input:-moz-placeholder, .swatch-custom .input-group-btn:-moz-placeholder, [class*="swatch-"] .swatch-custom select:-moz-placeholder, [class*="swatch-"] .swatch-custom textarea:-moz-placeholder, [class*="swatch-"] .swatch-custom input:-moz-placeholder, [class*="swatch-"] .swatch-custom .uneditable-input:-moz-placeholder, [class*="swatch-"] .swatch-custom .input-group-btn:-moz-placeholder {
+  color: #737373;
+}
+.swatch-custom select::-moz-placeholder, .swatch-custom textarea::-moz-placeholder, .swatch-custom input::-moz-placeholder, .swatch-custom .uneditable-input::-moz-placeholder, .swatch-custom .input-group-btn::-moz-placeholder, [class*="swatch-"] .swatch-custom select::-moz-placeholder, [class*="swatch-"] .swatch-custom textarea::-moz-placeholder, [class*="swatch-"] .swatch-custom input::-moz-placeholder, [class*="swatch-"] .swatch-custom .uneditable-input::-moz-placeholder, [class*="swatch-"] .swatch-custom .input-group-btn::-moz-placeholder {
+  color: #737373;
+}
+.swatch-custom select:-ms-input-placeholder, .swatch-custom textarea:-ms-input-placeholder, .swatch-custom input:-ms-input-placeholder, .swatch-custom .uneditable-input:-ms-input-placeholder, .swatch-custom .input-group-btn:-ms-input-placeholder, [class*="swatch-"] .swatch-custom select:-ms-input-placeholder, [class*="swatch-"] .swatch-custom textarea:-ms-input-placeholder, [class*="swatch-"] .swatch-custom input:-ms-input-placeholder, [class*="swatch-"] .swatch-custom .uneditable-input:-ms-input-placeholder, [class*="swatch-"] .swatch-custom .input-group-btn:-ms-input-placeholder {
+  color: #737373;
+}
+.swatch-custom select::-webkit-input-placeholder, .swatch-custom textarea::-webkit-input-placeholder, .swatch-custom input::-webkit-input-placeholder, .swatch-custom .uneditable-input::-webkit-input-placeholder, .swatch-custom .input-group-btn::-webkit-input-placeholder, [class*="swatch-"] .swatch-custom select::-webkit-input-placeholder, [class*="swatch-"] .swatch-custom textarea::-webkit-input-placeholder, [class*="swatch-"] .swatch-custom input::-webkit-input-placeholder, [class*="swatch-"] .swatch-custom .uneditable-input::-webkit-input-placeholder, [class*="swatch-"] .swatch-custom .input-group-btn::-webkit-input-placeholder {
+  color: #737373;
+}
+.swatch-custom input:focus, .swatch-custom textarea:focus, .swatch-custom .form-control:focus, [class*="swatch-"] .swatch-custom input:focus, [class*="swatch-"] .swatch-custom textarea:focus, [class*="swatch-"] .swatch-custom .form-control:focus {
+  -moz-box-shadow: 0px 3px 0px #cddadd;
+  -webkit-box-shadow: 0px 3px 0px #cddadd;
+  box-shadow: 0px 3px 0px #cddadd;
+}
+.swatch-custom .form-icon-group i, [class*="swatch-"] .swatch-custom .form-icon-group i {
+  color: #e74c3c;
+}
+.swatch-custom input[type="button"], [class*="swatch-"] .swatch-custom input[type="button"] {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .table th, [class*="swatch-"] .swatch-custom .table th {
+  background-color: #e74c3c;
+  text-transform: uppercase;
+  color: white;
+}
+.swatch-custom.table th, [class*="swatch-"] .swatch-custom.table th {
+  color: white;
+  background-color: #e74c3c;
+}
+.swatch-custom .table th, .swatch-custom .table td, .swatch-custom .table-bordered, [class*="swatch-"] .swatch-custom .table th, [class*="swatch-"] .swatch-custom .table td, [class*="swatch-"] .swatch-custom .table-bordered {
+  border-color: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .table-striped tbody > tr:nth-child(odd) > td, .swatch-custom .table-striped tbody > tr:nth-child(odd) > th, .swatch-custom .table-hover tbody tr:hover > td, .swatch-custom .table-hover tbody tr:hover > th, [class*="swatch-"] .swatch-custom .table-striped tbody > tr:nth-child(odd) > td, [class*="swatch-"] .swatch-custom .table-striped tbody > tr:nth-child(odd) > th, [class*="swatch-"] .swatch-custom .table-hover tbody tr:hover > td, [class*="swatch-"] .swatch-custom .table-hover tbody tr:hover > th {
+  background: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom.navbar, [class*="swatch-"] .swatch-custom.navbar {
+  background: white;
+  color: #222222;
+}
+.swatch-custom.navbar .navbar-brand, [class*="swatch-"] .swatch-custom.navbar .navbar-brand {
+  color: #222222;
+}
+.swatch-custom.navbar .navbar-brand:hover, [class*="swatch-"] .swatch-custom.navbar .navbar-brand:hover {
+  color: #222222;
+}
+.swatch-custom.navbar .nav > li > a, [class*="swatch-"] .swatch-custom.navbar .nav > li > a {
+  color: #e74c3c;
+}
+.swatch-custom.navbar .nav > li > a:hover, .swatch-custom.navbar .nav > li > a:focus, [class*="swatch-"] .swatch-custom.navbar .nav > li > a:hover, [class*="swatch-"] .swatch-custom.navbar .nav > li > a:focus {
+  background: none;
+}
+.swatch-custom.navbar .nav > li > a:before, [class*="swatch-"] .swatch-custom.navbar .nav > li > a:before {
+  background-color: #e74c3c;
+}
+.swatch-custom .navbar-toggle, [class*="swatch-"] .swatch-custom .navbar-toggle {
+  background: none;
+}
+.swatch-custom .navbar-toggle .icon-bar, [class*="swatch-"] .swatch-custom .navbar-toggle .icon-bar {
+  background-color: #222222;
+}
+.swatch-custom .navbar-toggle:hover, [class*="swatch-"] .swatch-custom .navbar-toggle:hover {
+  background: none;
+}
+.swatch-custom.navbar .nav > .active > a, .swatch-custom.navbar .nav > .current-menu-item > a
+.swatch-custom.navbar .nav > .active > a:hover, .swatch-custom.navbar .nav > .current-menu-item > a:hover, .swatch-custom.navbar .nav > .active > a:focus, .swatch-custom.navbar .nav > .current-menu-item > a:focus, .swatch-custom.navbar .nav > li > a:focus, .swatch-custom.navbar .nav > li > a:hover, .swatch-custom.navbar .nav li.dropdown.open > .dropdown-toggle, .swatch-custom.navbar .nav li.dropdown.active > .dropdown-toggle, .swatch-custom.navbar .nav li.dropdown.open.active > .dropdown-toggle, [class*="swatch-"] .swatch-custom.navbar .nav > .active > a, [class*="swatch-"] .swatch-custom.navbar .nav > .current-menu-item > a
+.swatch-custom.navbar .nav > .active > a:hover, [class*="swatch-"] .swatch-custom.navbar .nav > .current-menu-item > a:hover, [class*="swatch-"] .swatch-custom.navbar .nav > .active > a:focus, [class*="swatch-"] .swatch-custom.navbar .nav > .current-menu-item > a:focus, [class*="swatch-"] .swatch-custom.navbar .nav > li > a:focus, [class*="swatch-"] .swatch-custom.navbar .nav > li > a:hover, [class*="swatch-"] .swatch-custom.navbar .nav li.dropdown.open > .dropdown-toggle, [class*="swatch-"] .swatch-custom.navbar .nav li.dropdown.active > .dropdown-toggle, [class*="swatch-"] .swatch-custom.navbar .nav li.dropdown.open.active > .dropdown-toggle, .swatch-custom.navbar .nav > .current-menu-item > a
+[class*="swatch-"] .swatch-custom.navbar .nav > .active > a:hover, [class*="swatch-"] .swatch-custom.navbar .nav > .current-menu-item > a
+[class*="swatch-"] .swatch-custom.navbar .nav > .active > a:hover {
+  color: #222222;
+}
+.swatch-custom .dropdown-menu, [class*="swatch-"] .swatch-custom .dropdown-menu {
+  background: rgba(255, 255, 255, 0.95);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 4px 0px rgba(235, 235, 235, 0.3);
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 4px 0px rgba(235, 235, 235, 0.3);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 4px 0px rgba(235, 235, 235, 0.3);
+}
+.swatch-custom .dropdown-menu > li > a, [class*="swatch-"] .swatch-custom .dropdown-menu > li > a {
+  color: #222222;
+}
+.swatch-custom .dropdown-menu a:hover, .swatch-custom .dropdown-menu > .active > a, .swatch-custom .dropdown-menu > .active > a:hover, .swatch-custom .dropdown-menu > .active > a:focus, [class*="swatch-"] .swatch-custom .dropdown-menu a:hover, [class*="swatch-"] .swatch-custom .dropdown-menu > .active > a, [class*="swatch-"] .swatch-custom .dropdown-menu > .active > a:hover, [class*="swatch-"] .swatch-custom .dropdown-menu > .active > a:focus {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .dropdown-menu a:hover i, .swatch-custom .dropdown-menu > .active > a i, .swatch-custom .dropdown-menu > .active > a:hover i, .swatch-custom .dropdown-menu > .active > a:focus i, [class*="swatch-"] .swatch-custom .dropdown-menu a:hover i, [class*="swatch-"] .swatch-custom .dropdown-menu > .active > a i, [class*="swatch-"] .swatch-custom .dropdown-menu > .active > a:hover i, [class*="swatch-"] .swatch-custom .dropdown-menu > .active > a:focus i {
+  color: white;
+}
+.swatch-custom.navbar .nav > li > .dropdown-menu:after, .swatch-custom.navbar .nav > li > .dropdown-menu:before, [class*="swatch-"] .swatch-custom.navbar .nav > li > .dropdown-menu:after, [class*="swatch-"] .swatch-custom.navbar .nav > li > .dropdown-menu:before {
+  display: none;
+}
+.swatch-custom.navbar-scrolled, [class*="swatch-"] .swatch-custom.navbar-scrolled {
+  background: rgba(255, 255, 255, 0.95);
+}
+.swatch-custom.navbar-scrolled, [class*="swatch-"] .swatch-custom.navbar-scrolled {
+  -moz-box-shadow: 0px 4px 0px rgba(235, 235, 235, 0.3);
+  -webkit-box-shadow: 0px 4px 0px rgba(235, 235, 235, 0.3);
+  box-shadow: 0px 4px 0px rgba(235, 235, 235, 0.3);
+}
+.swatch-custom .dropdown-submenu > a:after, [class*="swatch-"] .swatch-custom .dropdown-submenu > a:after {
+  border-left-color: #222222 !important;
+}
+.swatch-custom .dropdown-submenu > a:hover:after, [class*="swatch-"] .swatch-custom .dropdown-submenu > a:hover:after {
+  border-left-color: white !important;
+}
+.swatch-custom .dropdown-menu .divider, [class*="swatch-"] .swatch-custom .dropdown-menu .divider {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom.navbar .nav-highlight > a, [class*="swatch-"] .swatch-custom.navbar .nav-highlight > a {
+  color: white !important;
+}
+.swatch-custom.navbar .nav-highlight > a:after, [class*="swatch-"] .swatch-custom.navbar .nav-highlight > a:after {
+  background: #e74c3c;
+}
+.swatch-custom.navbar .nav-highlight > a:hover, [class*="swatch-"] .swatch-custom.navbar .nav-highlight > a:hover {
+  color: white !important;
+}
+.swatch-custom.navbar .nav-highlight > a:hover:after, [class*="swatch-"] .swatch-custom.navbar .nav-highlight > a:hover:after {
+  background: rgba(231, 76, 60, 0.8);
+}
+.swatch-custom.navbar li.nav-highlight-ghost > a, [class*="swatch-"] .swatch-custom.navbar li.nav-highlight-ghost > a {
+  color: #e74c3c;
+}
+.swatch-custom.navbar li.nav-highlight-ghost > a:after, [class*="swatch-"] .swatch-custom.navbar li.nav-highlight-ghost > a:after {
+  border: 1px solid #e74c3c;
+}
+.swatch-custom.navbar li.nav-highlight-ghost > a:hover, [class*="swatch-"] .swatch-custom.navbar li.nav-highlight-ghost > a:hover {
+  color: rgba(231, 76, 60, 0.8);
+}
+.swatch-custom.navbar li.nav-highlight-ghost > a:hover:after, [class*="swatch-"] .swatch-custom.navbar li.nav-highlight-ghost > a:hover:after {
+  border-color: rgba(231, 76, 60, 0.8);
+}
+@media (max-width: 979px) {
+  .swatch-custom.navbar .nav > li > a, [class*="swatch-"] .swatch-custom.navbar .nav > li > a {
+    border-radius: 0;
+  }
+  .swatch-custom.navbar .nav > li > a:hover, [class*="swatch-"] .swatch-custom.navbar .nav > li > a:hover {
+    background: #f2f2f2;
+    color: #222222;
+  }
+  .swatch-custom.navbar .dropdown-menu, [class*="swatch-"] .swatch-custom.navbar .dropdown-menu {
+    background: #f2f2f2;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .swatch-custom.navbar .dropdown-menu > li > a, [class*="swatch-"] .swatch-custom.navbar .dropdown-menu > li > a {
+    border-radius: 0;
+    color: #222222;
+  }
+  .swatch-custom.navbar .dropdown-menu li > a:hover, .swatch-custom.navbar .dropdown-menu li > a:focus, .swatch-custom.navbar .dropdown-menu li.active > a, [class*="swatch-"] .swatch-custom.navbar .dropdown-menu li > a:hover, [class*="swatch-"] .swatch-custom.navbar .dropdown-menu li > a:focus, [class*="swatch-"] .swatch-custom.navbar .dropdown-menu li.active > a {
+    background: #ebebeb;
+  }
+  .swatch-custom .dropdown-submenu > ul > li > a, [class*="swatch-"] .swatch-custom .dropdown-submenu > ul > li > a {
+    background: #e6e6e6;
+  }
+  .swatch-custom .dropdown-submenu > ul > li > a:hover, [class*="swatch-"] .swatch-custom .dropdown-submenu > ul > li > a:hover {
+    background: #f2f2f2;
+  }
+  .swatch-custom .dropdown-submenu > a:after, [class*="swatch-"] .swatch-custom .dropdown-submenu > a:after {
+    border-left-color: transparent !important;
+    border-top-color: #222222 !important;
+  }
+  .swatch-custom.navbar .nav-highlight > a, [class*="swatch-"] .swatch-custom.navbar .nav-highlight > a {
+    color: #e74c3c !important;
+  }
+  .swatch-custom.navbar .nav-highlight > a:after, [class*="swatch-"] .swatch-custom.navbar .nav-highlight > a:after {
+    background: transparent;
+  }
+  .swatch-custom.navbar .nav-highlight > a:hover, [class*="swatch-"] .swatch-custom.navbar .nav-highlight > a:hover {
+    color: #e74c3c !important;
+  }
+  .swatch-custom.navbar .nav-highlight > a:hover:after, [class*="swatch-"] .swatch-custom.navbar .nav-highlight > a:hover:after {
+    background: transparent;
+  }
+}
+.swatch-custom .pagination > li > a, [class*="swatch-"] .swatch-custom .pagination > li > a {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .pagination > .active > a, .swatch-custom .pagination > .active > span, .swatch-custom .pagination > li > a:hover, [class*="swatch-"] .swatch-custom .pagination > .active > a, [class*="swatch-"] .swatch-custom .pagination > .active > span, [class*="swatch-"] .swatch-custom .pagination > li > a:hover {
+  background: rgba(231, 76, 60, 0.8);
+}
+.swatch-custom .pagination > .active > a i, .swatch-custom .pagination > .active > span i, .swatch-custom .pagination > li > a:hover i, [class*="swatch-"] .swatch-custom .pagination > .active > a i, [class*="swatch-"] .swatch-custom .pagination > .active > span i, [class*="swatch-"] .swatch-custom .pagination > li > a:hover i {
+  color: white;
+}
+.swatch-custom .pagination > li:first-child i, [class*="swatch-"] .swatch-custom .pagination > li:first-child i {
+  color: white;
+}
+.swatch-custom .pagination > li:first-child a:after, [class*="swatch-"] .swatch-custom .pagination > li:first-child a:after {
+  border-right-color: #e74c3c;
+}
+.swatch-custom .pagination > li:first-child a:hover, [class*="swatch-"] .swatch-custom .pagination > li:first-child a:hover {
+  background: rgba(231, 76, 60, 0.8);
+}
+.swatch-custom .pagination > li:first-child a:hover:after, [class*="swatch-"] .swatch-custom .pagination > li:first-child a:hover:after {
+  border-right-color: rgba(231, 76, 60, 0.8);
+}
+.swatch-custom .pagination > li:last-child i, [class*="swatch-"] .swatch-custom .pagination > li:last-child i {
+  color: white;
+}
+.swatch-custom .pagination > li:last-child a:after, [class*="swatch-"] .swatch-custom .pagination > li:last-child a:after {
+  border-left-color: #e74c3c;
+}
+.swatch-custom .pagination > li:last-child a:hover, [class*="swatch-"] .swatch-custom .pagination > li:last-child a:hover {
+  background: rgba(231, 76, 60, 0.8);
+}
+.swatch-custom .pagination > li:last-child a:hover:after, [class*="swatch-"] .swatch-custom .pagination > li:last-child a:hover:after {
+  border-left-color: rgba(231, 76, 60, 0.8);
+}
+.swatch-custom .tooltip-inner, [class*="swatch-"] .swatch-custom .tooltip-inner {
+  background-color: #e74c3c;
+  color: white;
+}
+.swatch-custom .tooltip.in, [class*="swatch-"] .swatch-custom .tooltip.in {
+  opacity: 1;
+}
+.swatch-custom .tooltip.top .tooltip-arrow, [class*="swatch-"] .swatch-custom .tooltip.top .tooltip-arrow {
+  border-top-color: #e74c3c;
+}
+.swatch-custom .tooltip.right .tooltip-arrow, [class*="swatch-"] .swatch-custom .tooltip.right .tooltip-arrow {
+  border-right-color: #e74c3c;
+}
+.swatch-custom .tooltip.left .tooltip-arrow, [class*="swatch-"] .swatch-custom .tooltip.left .tooltip-arrow {
+  border-left-color: #e74c3c;
+}
+.swatch-custom .tooltip.bottom .tooltip-arrow, [class*="swatch-"] .swatch-custom .tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #e74c3c;
+}
+.swatch-custom .progress, [class*="swatch-"] .swatch-custom .progress {
+  background: rgba(0, 0, 0, 0.07);
+  box-shadow: none;
+}
+.swatch-custom .progress .progress-bar-primary, [class*="swatch-"] .swatch-custom .progress .progress-bar-primary {
+  background: #e74c3c;
+  box-shadow: none;
+}
+.swatch-custom .progress .progress-bar-primary span, [class*="swatch-"] .swatch-custom .progress .progress-bar-primary span {
+  color: white;
+}
+.swatch-custom .badge, [class*="swatch-"] .swatch-custom .badge {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .tab-content, .swatch-custom .nav-tabs .active a, .swatch-custom .tab-content, .swatch-custom .nav-tabs .active a:hover, [class*="swatch-"] .swatch-custom .tab-content, [class*="swatch-"] .swatch-custom .nav-tabs .active a, [class*="swatch-"] .swatch-custom .tab-content, [class*="swatch-"] .swatch-custom .nav-tabs .active a:hover {
+  background: #e74c3c;
+}
+.swatch-custom .nav-tabs > li > a:hover, .swatch-custom .nav-tabs > li > a:focus, [class*="swatch-"] .swatch-custom .nav-tabs > li > a:hover, [class*="swatch-"] .swatch-custom .nav-tabs > li > a:focus {
+  color: white;
+  background-color: #e74c3c;
+}
+.swatch-custom .nav-tabs > li.active > a, [class*="swatch-"] .swatch-custom .nav-tabs > li.active > a {
+  color: white;
+}
+.swatch-custom .nav-tabs > li.active > a:hover, [class*="swatch-"] .swatch-custom .nav-tabs > li.active > a:hover {
+  color: white;
+}
+.swatch-custom .nav-pills > .active > a, .swatch-custom .nav-pills > .active > a:hover, .swatch-custom .nav-pills > li > a:hover, [class*="swatch-"] .swatch-custom .nav-pills > .active > a, [class*="swatch-"] .swatch-custom .nav-pills > .active > a:hover, [class*="swatch-"] .swatch-custom .nav-pills > li > a:hover {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .nav-pills > .active > a .badge, .swatch-custom .nav-pills > .active > a:hover .badge, .swatch-custom .nav-pills > li > a:hover .badge, [class*="swatch-"] .swatch-custom .nav-pills > .active > a .badge, [class*="swatch-"] .swatch-custom .nav-pills > .active > a:hover .badge, [class*="swatch-"] .swatch-custom .nav-pills > li > a:hover .badge {
+  background: white;
+  color: #e74c3c;
+}
+.swatch-custom .nav-pills > .active > a:hover, .swatch-custom .nav-pills > .active > a:hover:hover, .swatch-custom .nav-pills > li > a:hover:hover, [class*="swatch-"] .swatch-custom .nav-pills > .active > a:hover, [class*="swatch-"] .swatch-custom .nav-pills > .active > a:hover:hover, [class*="swatch-"] .swatch-custom .nav-pills > li > a:hover:hover {
+  color: white;
+}
+.swatch-custom .tab-pane, .swatch-custom .tab-pane.active, [class*="swatch-"] .swatch-custom .tab-pane, [class*="swatch-"] .swatch-custom .tab-pane.active {
+  color: white;
+}
+.swatch-custom .tab-pane h1, .swatch-custom .tab-pane h2, .swatch-custom .tab-pane h3, .swatch-custom .tab-pane h4, .swatch-custom .tab-pane h5, .swatch-custom .tab-pane h6, .swatch-custom .tab-pane a, .swatch-custom .tab-pane p, .swatch-custom .tab-pane.active h1, .swatch-custom .tab-pane.active h2, .swatch-custom .tab-pane.active h3, .swatch-custom .tab-pane.active h4, .swatch-custom .tab-pane.active h5, .swatch-custom .tab-pane.active h6, .swatch-custom .tab-pane.active a, .swatch-custom .tab-pane.active p, [class*="swatch-"] .swatch-custom .tab-pane h1, [class*="swatch-"] .swatch-custom .tab-pane h2, [class*="swatch-"] .swatch-custom .tab-pane h3, [class*="swatch-"] .swatch-custom .tab-pane h4, [class*="swatch-"] .swatch-custom .tab-pane h5, [class*="swatch-"] .swatch-custom .tab-pane h6, [class*="swatch-"] .swatch-custom .tab-pane a, [class*="swatch-"] .swatch-custom .tab-pane p, [class*="swatch-"] .swatch-custom .tab-pane.active h1, [class*="swatch-"] .swatch-custom .tab-pane.active h2, [class*="swatch-"] .swatch-custom .tab-pane.active h3, [class*="swatch-"] .swatch-custom .tab-pane.active h4, [class*="swatch-"] .swatch-custom .tab-pane.active h5, [class*="swatch-"] .swatch-custom .tab-pane.active h6, [class*="swatch-"] .swatch-custom .tab-pane.active a, [class*="swatch-"] .swatch-custom .tab-pane.active p {
+  color: white;
+}
+.swatch-custom .tab-pane .btn, .swatch-custom .tab-pane.active .btn, [class*="swatch-"] .swatch-custom .tab-pane .btn, [class*="swatch-"] .swatch-custom .tab-pane.active .btn {
+  color: #e74c3c !important;
+  background: white !important;
+}
+.swatch-custom .tab-pane .tooltip-inner, .swatch-custom .tab-pane.active .tooltip-inner, [class*="swatch-"] .swatch-custom .tab-pane .tooltip-inner, [class*="swatch-"] .swatch-custom .tab-pane.active .tooltip-inner {
+  background-color: white;
+  color: #e74c3c;
+}
+.swatch-custom .tab-pane .tooltip.top .tooltip-arrow, .swatch-custom .tab-pane.active .tooltip.top .tooltip-arrow, [class*="swatch-"] .swatch-custom .tab-pane .tooltip.top .tooltip-arrow, [class*="swatch-"] .swatch-custom .tab-pane.active .tooltip.top .tooltip-arrow {
+  border-top-color: white;
+}
+.swatch-custom .tab-pane .tooltip.right .tooltip-arrow, .swatch-custom .tab-pane.active .tooltip.right .tooltip-arrow, [class*="swatch-"] .swatch-custom .tab-pane .tooltip.right .tooltip-arrow, [class*="swatch-"] .swatch-custom .tab-pane.active .tooltip.right .tooltip-arrow {
+  border-right-color: white;
+}
+.swatch-custom .tab-pane .tooltip.left .tooltip-arrow, .swatch-custom .tab-pane.active .tooltip.left .tooltip-arrow, [class*="swatch-"] .swatch-custom .tab-pane .tooltip.left .tooltip-arrow, [class*="swatch-"] .swatch-custom .tab-pane.active .tooltip.left .tooltip-arrow {
+  border-left-color: white;
+}
+.swatch-custom .tab-pane .tooltip.bottom .tooltip-arrow, .swatch-custom .tab-pane.active .tooltip.bottom .tooltip-arrow, [class*="swatch-"] .swatch-custom .tab-pane .tooltip.bottom .tooltip-arrow, [class*="swatch-"] .swatch-custom .tab-pane.active .tooltip.bottom .tooltip-arrow {
+  border-bottom-color: white;
+}
+.swatch-custom .docs-sidebar-nav, .swatch-custom.docs-sidebar-nav, [class*="swatch-"] .swatch-custom .docs-sidebar-nav, [class*="swatch-"] .swatch-custom.docs-sidebar-nav {
+  background: none;
+}
+.swatch-custom .docs-sidebar-nav li a, .swatch-custom.docs-sidebar-nav li a, [class*="swatch-"] .swatch-custom .docs-sidebar-nav li a, [class*="swatch-"] .swatch-custom.docs-sidebar-nav li a {
+  background: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .docs-sidebar-nav li.active a, .swatch-custom.docs-sidebar-nav li.active a, [class*="swatch-"] .swatch-custom .docs-sidebar-nav li.active a, [class*="swatch-"] .swatch-custom.docs-sidebar-nav li.active a {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .panel, .swatch-custom .well, [class*="swatch-"] .swatch-custom .panel, [class*="swatch-"] .swatch-custom .well {
+  background: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .panel-heading, [class*="swatch-"] .swatch-custom .panel-heading {
+  background: #e74c3c;
+}
+.swatch-custom .panel-heading a, .swatch-custom .panel-heading .panel-title, [class*="swatch-"] .swatch-custom .panel-heading a, [class*="swatch-"] .swatch-custom .panel-heading .panel-title {
+  color: white;
+  text-decoration: none;
+}
+.swatch-custom .carousel-indicators li, [class*="swatch-"] .swatch-custom .carousel-indicators li {
+  background-color: rgba(231, 76, 60, 0.5);
+}
+.swatch-custom .carousel-indicators li.active, [class*="swatch-"] .swatch-custom .carousel-indicators li.active {
+  background-color: #e74c3c;
+}
+.swatch-custom .thumbnail, [class*="swatch-"] .swatch-custom .thumbnail {
+  background: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .thumbnail:hover, [class*="swatch-"] .swatch-custom .thumbnail:hover {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .overlay, [class*="swatch-"] .swatch-custom .overlay {
+  background: rgba(0, 0, 0, 0.07) !important;
+}
+.swatch-custom .post-media, [class*="swatch-"] .swatch-custom .post-media {
+  background-color: rgba(0, 0, 0, 0.07) !important;
+}
+.swatch-custom .media-inner:after, [class*="swatch-"] .swatch-custom .media-inner:after {
+  background: #e74c3c;
+}
+.swatch-custom .social-icons li a, .swatch-custom .social-share li a, [class*="swatch-"] .swatch-custom .social-icons li a, [class*="swatch-"] .swatch-custom .social-share li a {
+  background-color: #e74c3c;
+}
+.swatch-custom .social-icons li a i, .swatch-custom .social-share li a i, [class*="swatch-"] .swatch-custom .social-icons li a i, [class*="swatch-"] .swatch-custom .social-share li a i {
+  color: white;
+}
+.swatch-custom .social-icons li a:not([data-iconcolor]):hover, .swatch-custom .social-share li a:not([data-iconcolor]):hover, [class*="swatch-"] .swatch-custom .social-icons li a:not([data-iconcolor]):hover, [class*="swatch-"] .swatch-custom .social-share li a:not([data-iconcolor]):hover {
+  background-color: rgba(231, 76, 60, 0.8);
+}
+.swatch-custom .social-simple li a i, [class*="swatch-"] .swatch-custom .social-simple li a i {
+  color: #e74c3c;
+}
+.swatch-custom .social-simple li a:not([data-iconcolor]):hover i, [class*="swatch-"] .swatch-custom .social-simple li a:not([data-iconcolor]):hover i {
+  color: rgba(34, 34, 34, 0.8);
+}
+.swatch-custom .grid-post .post-extras:before, [class*="swatch-"] .swatch-custom .grid-post .post-extras:before {
+  background: white;
+}
+.swatch-custom .post-extras i, [class*="swatch-"] .swatch-custom .post-extras i {
+  color: #e74c3c;
+}
+.swatch-custom .list-fancy-icons li, .swatch-custom.list-fancy-icons li, .swatch-custom .list-fancy-icons .list-item, .swatch-custom.list-fancy-icons .list-item, [class*="swatch-"] .swatch-custom .list-fancy-icons li, [class*="swatch-"] .swatch-custom.list-fancy-icons li, [class*="swatch-"] .swatch-custom .list-fancy-icons .list-item, [class*="swatch-"] .swatch-custom.list-fancy-icons .list-item {
+  background: white;
+}
+.swatch-custom .list-fancy-icons li .round, .swatch-custom .list-fancy-icons li .square, .swatch-custom.list-fancy-icons li .round, .swatch-custom.list-fancy-icons li .square, .swatch-custom .list-fancy-icons .list-item .round, .swatch-custom .list-fancy-icons .list-item .square, .swatch-custom.list-fancy-icons .list-item .round, .swatch-custom.list-fancy-icons .list-item .square, [class*="swatch-"] .swatch-custom .list-fancy-icons li .round, [class*="swatch-"] .swatch-custom .list-fancy-icons li .square, [class*="swatch-"] .swatch-custom.list-fancy-icons li .round, [class*="swatch-"] .swatch-custom.list-fancy-icons li .square, [class*="swatch-"] .swatch-custom .list-fancy-icons .list-item .round, [class*="swatch-"] .swatch-custom .list-fancy-icons .list-item .square, [class*="swatch-"] .swatch-custom.list-fancy-icons .list-item .round, [class*="swatch-"] .swatch-custom.list-fancy-icons .list-item .square {
+  background: #e74c3c;
+}
+.swatch-custom .list-fancy-icons li i, .swatch-custom.list-fancy-icons li i, .swatch-custom .list-fancy-icons .list-item i, .swatch-custom.list-fancy-icons .list-item i, [class*="swatch-"] .swatch-custom .list-fancy-icons li i, [class*="swatch-"] .swatch-custom.list-fancy-icons li i, [class*="swatch-"] .swatch-custom .list-fancy-icons .list-item i, [class*="swatch-"] .swatch-custom.list-fancy-icons .list-item i {
+  color: white;
+}
+.swatch-custom .box-inner, [class*="swatch-"] .swatch-custom .box-inner {
+  background: #e74c3c;
+}
+.swatch-custom .box-inner i, [class*="swatch-"] .swatch-custom .box-inner i {
+  color: white;
+}
+.swatch-custom .box-badge, [class*="swatch-"] .swatch-custom .box-badge {
+  background: rgba(231, 76, 60, 0.9);
+  color: white;
+}
+.swatch-custom .bordered:after, [class*="swatch-"] .swatch-custom .bordered:after {
+  background: #e74c3c;
+}
+.swatch-custom .vertical-icon-border [class^="col-md"]:first-child, .swatch-custom .horizontal-icon-border [class^="box-"]:before, [class*="swatch-"] .swatch-custom .vertical-icon-border [class^="col-md"]:first-child, [class*="swatch-"] .swatch-custom .horizontal-icon-border [class^="box-"]:before {
+  border-color: #e74c3c;
+}
+.swatch-custom #infscr-loading, [class*="swatch-"] .swatch-custom #infscr-loading {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .counter .value, [class*="swatch-"] .swatch-custom .counter .value {
+  color: #222222;
+}
+.swatch-custom .counter.underline:after, [class*="swatch-"] .swatch-custom .counter.underline:after {
+  background: #e74c3c;
+}
+.swatch-custom .countdown.underline b:before, [class*="swatch-"] .swatch-custom .countdown.underline b:before {
+  background: #e74c3c;
+}
+.swatch-custom .mejs-audio, [class*="swatch-"] .swatch-custom .mejs-audio {
+  background-color: #e74c3c;
+  color: white;
+}
+.swatch-custom .mejs-container .mejs-controls .mejs-time span, [class*="swatch-"] .swatch-custom .mejs-container .mejs-controls .mejs-time span {
+  color: white;
+}
+.swatch-custom .mejs-controls .mejs-button button:hover, [class*="swatch-"] .swatch-custom .mejs-controls .mejs-button button:hover {
+  background-color: transparent;
+}
+.swatch-custom .mejs-controls .mejs-time-rail .mejs-time-loaded, [class*="swatch-"] .swatch-custom .mejs-controls .mejs-time-rail .mejs-time-loaded {
+  background-color: white;
+}
+.swatch-custom .mejs-controls .mejs-time-rail .mejs-time-current, .swatch-custom .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, [class*="swatch-"] .swatch-custom .mejs-controls .mejs-time-rail .mejs-time-current, [class*="swatch-"] .swatch-custom .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .hex, [class*="swatch-"] .swatch-custom .hex {
+  background-color: #e74c3c;
+  color: white;
+}
+.swatch-custom .hex a, .swatch-custom .hex i, [class*="swatch-"] .swatch-custom .hex a, [class*="swatch-"] .swatch-custom .hex i {
+  color: white;
+}
+.swatch-custom .hex a:hover, .swatch-custom .hex:hover, [class*="swatch-"] .swatch-custom .hex a:hover, [class*="swatch-"] .swatch-custom .hex:hover {
+  color: white;
+}
+.swatch-custom .hex:before, [class*="swatch-"] .swatch-custom .hex:before {
+  border-bottom-color: #e74c3c;
+}
+.swatch-custom .hex:after, [class*="swatch-"] .swatch-custom .hex:after {
+  border-top-color: #e74c3c;
+}
+.swatch-custom .hex-left:after, .swatch-custom .hex-left:before, .swatch-custom .hex-right:after, .swatch-custom .hex-right:before, [class*="swatch-"] .swatch-custom .hex-left:after, [class*="swatch-"] .swatch-custom .hex-left:before, [class*="swatch-"] .swatch-custom .hex-right:after, [class*="swatch-"] .swatch-custom .hex-right:before {
+  background-color: white;
+}
+.swatch-custom .pricing-head, .swatch-custom .pricing-body, [class*="swatch-"] .swatch-custom .pricing-head, [class*="swatch-"] .swatch-custom .pricing-body {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .pricing-head h4, .swatch-custom .pricing-head small, .swatch-custom .pricing-body h4, .swatch-custom .pricing-body small, [class*="swatch-"] .swatch-custom .pricing-head h4, [class*="swatch-"] .swatch-custom .pricing-head small, [class*="swatch-"] .swatch-custom .pricing-body h4, [class*="swatch-"] .swatch-custom .pricing-body small {
+  color: white;
+}
+.swatch-custom .pricing-list li, [class*="swatch-"] .swatch-custom .pricing-list li {
+  border-color: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .pricing-col .btn-primary, [class*="swatch-"] .swatch-custom .pricing-col .btn-primary {
+  background: white;
+  color: #e74c3c;
+}
+.swatch-custom .pricing-col .btn-primary:hover, [class*="swatch-"] .swatch-custom .pricing-col .btn-primary:hover {
+  background: #f0f0f0;
+}
+.swatch-custom .flexslider figcaption, [class*="swatch-"] .swatch-custom .flexslider figcaption {
+  background: rgba(255, 255, 255, 0.9);
+  -moz-box-shadow: 0px 4px 0px rgba(235, 235, 235, 0.3);
+  -webkit-box-shadow: 0px 4px 0px rgba(235, 235, 235, 0.3);
+  box-shadow: 0px 4px 0px rgba(235, 235, 235, 0.3);
+}
+.swatch-custom .flex-directions-fancy .flex-direction-nav a, [class*="swatch-"] .swatch-custom .flex-directions-fancy .flex-direction-nav a {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .flex-control-nav a, [class*="swatch-"] .swatch-custom .flex-control-nav a {
+  background: rgba(231, 76, 60, 0.5);
+}
+.swatch-custom .flex-control-nav a.flex-active, [class*="swatch-"] .swatch-custom .flex-control-nav a.flex-active {
+  background: #e74c3c;
+}
+.swatch-custom .sidebar, [class*="swatch-"] .swatch-custom .sidebar {
+  color: #444444;
+}
+.swatch-custom .sidebar h3, [class*="swatch-"] .swatch-custom .sidebar h3 {
+  color: #222222;
+}
+.swatch-custom .sidebar a, [class*="swatch-"] .swatch-custom .sidebar a {
+  color: #444444;
+}
+.swatch-custom .sidebar a:hover, [class*="swatch-"] .swatch-custom .sidebar a:hover {
+  color: #e74c3c;
+}
+.swatch-custom .widget_search .btn, [class*="swatch-"] .swatch-custom .widget_search .btn {
+  background: #cddadd;
+}
+.swatch-custom .widget_search .btn i, [class*="swatch-"] .swatch-custom .widget_search .btn i {
+  color: #222222 !important;
+}
+.swatch-custom .sidebar-widget .post-icon, [class*="swatch-"] .swatch-custom .sidebar-widget .post-icon {
+  background: #e74c3c;
+}
+.swatch-custom .sidebar-widget .post-icon i, [class*="swatch-"] .swatch-custom .sidebar-widget .post-icon i {
+  color: white;
+}
+.swatch-custom .widget_tag_cloud ul a, [class*="swatch-"] .swatch-custom .widget_tag_cloud ul a {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .widget_tag_cloud ul a:hover, [class*="swatch-"] .swatch-custom .widget_tag_cloud ul a:hover {
+  background: rgba(231, 76, 60, 0.9);
+  color: white;
+}
+.swatch-custom .widget_calendar tbody a, [class*="swatch-"] .swatch-custom .widget_calendar tbody a {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .widget_calendar tbody a:hover, [class*="swatch-"] .swatch-custom .widget_calendar tbody a:hover {
+  background: #e32f1c;
+  color: white;
+}
+.swatch-custom .widget_calendar tfoot, [class*="swatch-"] .swatch-custom .widget_calendar tfoot {
+  background: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .widget_nav_menu .sub-menu, [class*="swatch-"] .swatch-custom .widget_nav_menu .sub-menu {
+  border-color: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .widget_oxy_twitter li:before, [class*="swatch-"] .swatch-custom .widget_oxy_twitter li:before {
+  color: #e74c3c;
+}
+.swatch-custom .button, [class*="swatch-"] .swatch-custom .button {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .button:hover, [class*="swatch-"] .swatch-custom .button:hover {
+  background: rgba(231, 76, 60, 0.9);
+  color: white;
+}
+.swatch-custom .woocommerce-breadcrumb, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb {
+  color: white;
+}
+.swatch-custom .woocommerce-breadcrumb a, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb a {
+  color: white;
+}
+.swatch-custom .woocommerce-breadcrumb a:hover, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb a:hover {
+  color: white;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(1), [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(1) {
+  background: #e74c3c;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(1):after, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(1):after {
+  border-left-color: #e74c3c;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(1):hover, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(1):hover {
+  background: #e43725;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(1):hover:after, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(1):hover:after {
+  border-left-color: #e43725;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(2), [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(2) {
+  background: #ea6153;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(2):after, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(2):after {
+  border-left-color: #ea6153;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(2):hover, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(2):hover {
+  background: #e9594a;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(2):hover:after, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(2):hover:after {
+  border-left-color: #e9594a;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(3), [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(3) {
+  background: #ed7669;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(3):after, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(3):after {
+  border-left-color: #ed7669;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(3):hover, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(3):hover {
+  background: #eb695c;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(3):hover:after, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(3):hover:after {
+  border-left-color: #eb695c;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(4), [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(4) {
+  background: #ef8b80;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(4):after, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(4):after {
+  border-left-color: #ef8b80;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(4):hover, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(4):hover {
+  background: #ee7e72;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(4):hover:after, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(4):hover:after {
+  border-left-color: #ee7e72;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(5), [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(5) {
+  background: #f29f97;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(5):after, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(5):after {
+  border-left-color: #f29f97;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(5):hover, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(5):hover {
+  background: #f19389;
+}
+.swatch-custom .woocommerce-breadcrumb span:nth-child(5):hover:after, [class*="swatch-"] .swatch-custom .woocommerce-breadcrumb span:nth-child(5):hover:after {
+  border-left-color: #f19389;
+}
+.swatch-custom .woocommerce-ordering select, [class*="swatch-"] .swatch-custom .woocommerce-ordering select {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .woocommerce-ordering .select-wrap:after, [class*="swatch-"] .swatch-custom .woocommerce-ordering .select-wrap:after {
+  color: white;
+}
+.swatch-custom .product .product-title:after, [class*="swatch-"] .swatch-custom .product .product-title:after {
+  background: #e74c3c;
+}
+.swatch-custom .star-rating, [class*="swatch-"] .swatch-custom .star-rating {
+  color: #e74c3c;
+}
+.swatch-custom .onsale, [class*="swatch-"] .swatch-custom .onsale {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .page-numbers a, .swatch-custom .page-numbers span, [class*="swatch-"] .swatch-custom .page-numbers a, [class*="swatch-"] .swatch-custom .page-numbers span {
+  color: white;
+}
+.swatch-custom .page-numbers li, [class*="swatch-"] .swatch-custom .page-numbers li {
+  background: #e74c3c;
+}
+.swatch-custom .page-numbers .current, .swatch-custom .page-numbers li a:hover, [class*="swatch-"] .swatch-custom .page-numbers .current, [class*="swatch-"] .swatch-custom .page-numbers li a:hover {
+  background: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .pager li > a:focus, [class*="swatch-"] .swatch-custom .pager li > a:focus {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .product-category h3, [class*="swatch-"] .swatch-custom .product-category h3 {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .product-category h3 mark, [class*="swatch-"] .swatch-custom .product-category h3 mark {
+  background: rgba(0, 0, 0, 0.07);
+  color: white;
+}
+.swatch-custom .product-nav a i, [class*="swatch-"] .swatch-custom .product-nav a i {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .product-images figcaption, [class*="swatch-"] .swatch-custom .product-images figcaption {
+  box-shadow: none;
+  background: #e74c3c;
+}
+.swatch-custom .product-images figcaption i, [class*="swatch-"] .swatch-custom .product-images figcaption i {
+  color: white;
+}
+.swatch-custom .product-images .flex-active, [class*="swatch-"] .swatch-custom .product-images .flex-active {
+  -moz-box-shadow: 0px 3px 0px #e74c3c;
+  -webkit-box-shadow: 0px 3px 0px #e74c3c;
+  box-shadow: 0px 3px 0px #e74c3c;
+}
+.swatch-custom .order_details, [class*="swatch-"] .swatch-custom .order_details {
+  background: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .order_details li, [class*="swatch-"] .swatch-custom .order_details li {
+  border-color: rgba(26, 26, 26, 0.07);
+}
+.swatch-custom .single-product-extras input, .swatch-custom .single-product-extras textarea, [class*="swatch-"] .swatch-custom .single-product-extras input, [class*="swatch-"] .swatch-custom .single-product-extras textarea {
+  background: white;
+  color: #e74c3c;
+}
+.swatch-custom .single-product-extras input[type="submit"]:hover, [class*="swatch-"] .swatch-custom .single-product-extras input[type="submit"]:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: #e74c3c;
+}
+.swatch-custom #review_form:before, [class*="swatch-"] .swatch-custom #review_form:before {
+  background: #d62c1a;
+}
+.swatch-custom.mini-cart-container.active, [class*="swatch-"] .swatch-custom.mini-cart-container.active {
+  box-shadow: -10px 0px 0px rgba(235, 235, 235, 0.3);
+}
+.swatch-custom .cart_list li, [class*="swatch-"] .swatch-custom .cart_list li {
+  border-color: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .cart-actions, [class*="swatch-"] .swatch-custom .cart-actions {
+  background: white;
+}
+.swatch-custom .widget_product_tag_cloud a, [class*="swatch-"] .swatch-custom .widget_product_tag_cloud a {
+  background: #e74c3c;
+  color: white;
+}
+.swatch-custom .widget_product_tag_cloud a:hover, [class*="swatch-"] .swatch-custom .widget_product_tag_cloud a:hover {
+  background: rgba(231, 76, 60, 0.9);
+  color: white;
+}
+.swatch-custom .product_list_widget .star-rating, [class*="swatch-"] .swatch-custom .product_list_widget .star-rating {
+  color: #e74c3c;
+}
+.swatch-custom .widget_price_filter .ui-slider .ui-slider-range, [class*="swatch-"] .swatch-custom .widget_price_filter .ui-slider .ui-slider-range {
+  background: rgba(0, 0, 0, 0.07);
+}
+.swatch-custom .widget_price_filter .ui-slider .ui-slider-handle, [class*="swatch-"] .swatch-custom .widget_price_filter .ui-slider .ui-slider-handle {
+  background: #e74c3c;
+}
+.swatch-custom .widget_product_search form:after, [class*="swatch-"] .swatch-custom .widget_product_search form:after {
+  color: white;
+}

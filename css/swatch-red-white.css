@@ -3,11 +3,11 @@
 /* ------------- */
 /* - Red white - */
 .swatch-red-white, [class*="swatch-"] .swatch-red-white {
-  background: #e74c3c;
+  background: #F03018;
   color: #f0c6bc;
 }
 .swatch-red-white .decor, [class*="swatch-"] .swatch-red-white .decor {
-  fill: #e74c3c;
+  fill: #F03018;
   stroke: white;
 }
 .swatch-red-white h1, .swatch-red-white h2, .swatch-red-white h3, .swatch-red-white h4, .swatch-red-white h5, .swatch-red-white h6, [class*="swatch-"] .swatch-red-white h1, [class*="swatch-"] .swatch-red-white h2, [class*="swatch-"] .swatch-red-white h3, [class*="swatch-"] .swatch-red-white h4, [class*="swatch-"] .swatch-red-white h5, [class*="swatch-"] .swatch-red-white h6 {
@@ -45,18 +45,18 @@
 }
 .swatch-red-white ::selection, [class*="swatch-"] .swatch-red-white ::selection {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white ::-moz-selection, [class*="swatch-"] .swatch-red-white ::-moz-selection {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white hr, [class*="swatch-"] .swatch-red-white hr {
   border-top-color: rgba(0, 0, 0, 0.075);
 }
 .swatch-red-white pre, [class*="swatch-"] .swatch-red-white pre {
   background: #f0c6bc;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .section-header:after, .swatch-red-white .bordered-header:after, [class*="swatch-"] .swatch-red-white .section-header:after, [class*="swatch-"] .swatch-red-white .bordered-header:after {
   background: white;
@@ -136,10 +136,10 @@
 .swatch-red-white .table th, [class*="swatch-"] .swatch-red-white .table th {
   background-color: white;
   text-transform: uppercase;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white.table th, [class*="swatch-"] .swatch-red-white.table th {
-  color: #e74c3c;
+  color: #F03018;
   background-color: white;
 }
 .swatch-red-white .table th, .swatch-red-white .table td, .swatch-red-white .table-bordered, [class*="swatch-"] .swatch-red-white .table th, [class*="swatch-"] .swatch-red-white .table td, [class*="swatch-"] .swatch-red-white .table-bordered {
@@ -149,7 +149,7 @@
   background: rgba(0, 0, 0, 0.075);
 }
 .swatch-red-white.navbar, [class*="swatch-"] .swatch-red-white.navbar {
-  background: #e74c3c;
+  background: #F03018;
   color: white;
 }
 .swatch-red-white.navbar .navbar-brand, [class*="swatch-"] .swatch-red-white.navbar .navbar-brand {
@@ -192,10 +192,10 @@
 }
 .swatch-red-white .dropdown-menu a:hover, .swatch-red-white .dropdown-menu > .active > a, .swatch-red-white .dropdown-menu > .active > a:hover, .swatch-red-white .dropdown-menu > .active > a:focus, [class*="swatch-"] .swatch-red-white .dropdown-menu a:hover, [class*="swatch-"] .swatch-red-white .dropdown-menu > .active > a, [class*="swatch-"] .swatch-red-white .dropdown-menu > .active > a:hover, [class*="swatch-"] .swatch-red-white .dropdown-menu > .active > a:focus {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .dropdown-menu a:hover i, .swatch-red-white .dropdown-menu > .active > a i, .swatch-red-white .dropdown-menu > .active > a:hover i, .swatch-red-white .dropdown-menu > .active > a:focus i, [class*="swatch-"] .swatch-red-white .dropdown-menu a:hover i, [class*="swatch-"] .swatch-red-white .dropdown-menu > .active > a i, [class*="swatch-"] .swatch-red-white .dropdown-menu > .active > a:hover i, [class*="swatch-"] .swatch-red-white .dropdown-menu > .active > a:focus i {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white.navbar .nav > li > .dropdown-menu:after, .swatch-red-white.navbar .nav > li > .dropdown-menu:before, [class*="swatch-"] .swatch-red-white.navbar .nav > li > .dropdown-menu:after, [class*="swatch-"] .swatch-red-white.navbar .nav > li > .dropdown-menu:before {
   display: none;
@@ -212,19 +212,19 @@
   border-left-color: white !important;
 }
 .swatch-red-white .dropdown-submenu > a:hover:after, [class*="swatch-"] .swatch-red-white .dropdown-submenu > a:hover:after {
-  border-left-color: #e74c3c !important;
+  border-left-color: #F03018 !important;
 }
 .swatch-red-white .dropdown-menu .divider, [class*="swatch-"] .swatch-red-white .dropdown-menu .divider {
   background-color: rgba(0, 0, 0, 0.075);
 }
 .swatch-red-white.navbar .nav-highlight > a, [class*="swatch-"] .swatch-red-white.navbar .nav-highlight > a {
-  color: #e74c3c !important;
+  color: #F03018 !important;
 }
 .swatch-red-white.navbar .nav-highlight > a:after, [class*="swatch-"] .swatch-red-white.navbar .nav-highlight > a:after {
   background: white;
 }
 .swatch-red-white.navbar .nav-highlight > a:hover, [class*="swatch-"] .swatch-red-white.navbar .nav-highlight > a:hover {
-  color: #e74c3c !important;
+  color: #F03018 !important;
 }
 .swatch-red-white.navbar .nav-highlight > a:hover:after, [class*="swatch-"] .swatch-red-white.navbar .nav-highlight > a:hover:after {
   background: rgba(255, 255, 255, 0.8);
@@ -320,7 +320,7 @@
 }
 .swatch-red-white .tooltip-inner, [class*="swatch-"] .swatch-red-white .tooltip-inner {
   background-color: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .tooltip.in, [class*="swatch-"] .swatch-red-white .tooltip.in {
   opacity: 1;
@@ -350,57 +350,57 @@
 }
 .swatch-red-white .badge, [class*="swatch-"] .swatch-red-white .badge {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .tab-content, .swatch-red-white .nav-tabs .active a, .swatch-red-white .tab-content, .swatch-red-white .nav-tabs .active a:hover, [class*="swatch-"] .swatch-red-white .tab-content, [class*="swatch-"] .swatch-red-white .nav-tabs .active a, [class*="swatch-"] .swatch-red-white .tab-content, [class*="swatch-"] .swatch-red-white .nav-tabs .active a:hover {
   background: white;
 }
 .swatch-red-white .nav-tabs > li > a:hover, .swatch-red-white .nav-tabs > li > a:focus, [class*="swatch-"] .swatch-red-white .nav-tabs > li > a:hover, [class*="swatch-"] .swatch-red-white .nav-tabs > li > a:focus {
-  color: #e74c3c;
+  color: #F03018;
   background-color: white;
 }
 .swatch-red-white .nav-tabs > li.active > a, [class*="swatch-"] .swatch-red-white .nav-tabs > li.active > a {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .nav-tabs > li.active > a:hover, [class*="swatch-"] .swatch-red-white .nav-tabs > li.active > a:hover {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .nav-pills > .active > a, .swatch-red-white .nav-pills > .active > a:hover, .swatch-red-white .nav-pills > li > a:hover, [class*="swatch-"] .swatch-red-white .nav-pills > .active > a, [class*="swatch-"] .swatch-red-white .nav-pills > .active > a:hover, [class*="swatch-"] .swatch-red-white .nav-pills > li > a:hover {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .nav-pills > .active > a .badge, .swatch-red-white .nav-pills > .active > a:hover .badge, .swatch-red-white .nav-pills > li > a:hover .badge, [class*="swatch-"] .swatch-red-white .nav-pills > .active > a .badge, [class*="swatch-"] .swatch-red-white .nav-pills > .active > a:hover .badge, [class*="swatch-"] .swatch-red-white .nav-pills > li > a:hover .badge {
-  background: #e74c3c;
+  background: #F03018;
   color: white;
 }
 .swatch-red-white .nav-pills > .active > a:hover, .swatch-red-white .nav-pills > .active > a:hover:hover, .swatch-red-white .nav-pills > li > a:hover:hover, [class*="swatch-"] .swatch-red-white .nav-pills > .active > a:hover, [class*="swatch-"] .swatch-red-white .nav-pills > .active > a:hover:hover, [class*="swatch-"] .swatch-red-white .nav-pills > li > a:hover:hover {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .tab-pane, .swatch-red-white .tab-pane.active, [class*="swatch-"] .swatch-red-white .tab-pane, [class*="swatch-"] .swatch-red-white .tab-pane.active {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .tab-pane h1, .swatch-red-white .tab-pane h2, .swatch-red-white .tab-pane h3, .swatch-red-white .tab-pane h4, .swatch-red-white .tab-pane h5, .swatch-red-white .tab-pane h6, .swatch-red-white .tab-pane a, .swatch-red-white .tab-pane p, .swatch-red-white .tab-pane.active h1, .swatch-red-white .tab-pane.active h2, .swatch-red-white .tab-pane.active h3, .swatch-red-white .tab-pane.active h4, .swatch-red-white .tab-pane.active h5, .swatch-red-white .tab-pane.active h6, .swatch-red-white .tab-pane.active a, .swatch-red-white .tab-pane.active p, [class*="swatch-"] .swatch-red-white .tab-pane h1, [class*="swatch-"] .swatch-red-white .tab-pane h2, [class*="swatch-"] .swatch-red-white .tab-pane h3, [class*="swatch-"] .swatch-red-white .tab-pane h4, [class*="swatch-"] .swatch-red-white .tab-pane h5, [class*="swatch-"] .swatch-red-white .tab-pane h6, [class*="swatch-"] .swatch-red-white .tab-pane a, [class*="swatch-"] .swatch-red-white .tab-pane p, [class*="swatch-"] .swatch-red-white .tab-pane.active h1, [class*="swatch-"] .swatch-red-white .tab-pane.active h2, [class*="swatch-"] .swatch-red-white .tab-pane.active h3, [class*="swatch-"] .swatch-red-white .tab-pane.active h4, [class*="swatch-"] .swatch-red-white .tab-pane.active h5, [class*="swatch-"] .swatch-red-white .tab-pane.active h6, [class*="swatch-"] .swatch-red-white .tab-pane.active a, [class*="swatch-"] .swatch-red-white .tab-pane.active p {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .tab-pane .btn, .swatch-red-white .tab-pane.active .btn, [class*="swatch-"] .swatch-red-white .tab-pane .btn, [class*="swatch-"] .swatch-red-white .tab-pane.active .btn {
   color: white !important;
-  background: #e74c3c !important;
+  background: #F03018 !important;
 }
 .swatch-red-white .tab-pane .tooltip-inner, .swatch-red-white .tab-pane.active .tooltip-inner, [class*="swatch-"] .swatch-red-white .tab-pane .tooltip-inner, [class*="swatch-"] .swatch-red-white .tab-pane.active .tooltip-inner {
-  background-color: #e74c3c;
+  background-color: #F03018;
   color: white;
 }
 .swatch-red-white .tab-pane .tooltip.top .tooltip-arrow, .swatch-red-white .tab-pane.active .tooltip.top .tooltip-arrow, [class*="swatch-"] .swatch-red-white .tab-pane .tooltip.top .tooltip-arrow, [class*="swatch-"] .swatch-red-white .tab-pane.active .tooltip.top .tooltip-arrow {
-  border-top-color: #e74c3c;
+  border-top-color: #F03018;
 }
 .swatch-red-white .tab-pane .tooltip.right .tooltip-arrow, .swatch-red-white .tab-pane.active .tooltip.right .tooltip-arrow, [class*="swatch-"] .swatch-red-white .tab-pane .tooltip.right .tooltip-arrow, [class*="swatch-"] .swatch-red-white .tab-pane.active .tooltip.right .tooltip-arrow {
-  border-right-color: #e74c3c;
+  border-right-color: #F03018;
 }
 .swatch-red-white .tab-pane .tooltip.left .tooltip-arrow, .swatch-red-white .tab-pane.active .tooltip.left .tooltip-arrow, [class*="swatch-"] .swatch-red-white .tab-pane .tooltip.left .tooltip-arrow, [class*="swatch-"] .swatch-red-white .tab-pane.active .tooltip.left .tooltip-arrow {
-  border-left-color: #e74c3c;
+  border-left-color: #F03018;
 }
 .swatch-red-white .tab-pane .tooltip.bottom .tooltip-arrow, .swatch-red-white .tab-pane.active .tooltip.bottom .tooltip-arrow, [class*="swatch-"] .swatch-red-white .tab-pane .tooltip.bottom .tooltip-arrow, [class*="swatch-"] .swatch-red-white .tab-pane.active .tooltip.bottom .tooltip-arrow {
-  border-bottom-color: #e74c3c;
+  border-bottom-color: #F03018;
 }
 .swatch-red-white .docs-sidebar-nav, .swatch-red-white.docs-sidebar-nav, [class*="swatch-"] .swatch-red-white .docs-sidebar-nav, [class*="swatch-"] .swatch-red-white.docs-sidebar-nav {
   background: none;
@@ -410,7 +410,7 @@
 }
 .swatch-red-white .docs-sidebar-nav li.active a, .swatch-red-white.docs-sidebar-nav li.active a, [class*="swatch-"] .swatch-red-white .docs-sidebar-nav li.active a, [class*="swatch-"] .swatch-red-white.docs-sidebar-nav li.active a {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .panel, .swatch-red-white .well, [class*="swatch-"] .swatch-red-white .panel, [class*="swatch-"] .swatch-red-white .well {
   background: rgba(0, 0, 0, 0.075);
@@ -419,7 +419,7 @@
   background: white;
 }
 .swatch-red-white .panel-heading a, .swatch-red-white .panel-heading .panel-title, [class*="swatch-"] .swatch-red-white .panel-heading a, [class*="swatch-"] .swatch-red-white .panel-heading .panel-title {
-  color: #e74c3c;
+  color: #F03018;
   text-decoration: none;
 }
 .swatch-red-white .carousel-indicators li, [class*="swatch-"] .swatch-red-white .carousel-indicators li {
@@ -433,7 +433,7 @@
 }
 .swatch-red-white .thumbnail:hover, [class*="swatch-"] .swatch-red-white .thumbnail:hover {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .overlay, [class*="swatch-"] .swatch-red-white .overlay {
   background: rgba(0, 0, 0, 0.075) !important;
@@ -448,7 +448,7 @@
   background-color: white;
 }
 .swatch-red-white .social-icons li a i, .swatch-red-white .social-share li a i, [class*="swatch-"] .swatch-red-white .social-icons li a i, [class*="swatch-"] .swatch-red-white .social-share li a i {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .social-icons li a:not([data-iconcolor]):hover, .swatch-red-white .social-share li a:not([data-iconcolor]):hover, [class*="swatch-"] .swatch-red-white .social-icons li a:not([data-iconcolor]):hover, [class*="swatch-"] .swatch-red-white .social-share li a:not([data-iconcolor]):hover {
   background-color: rgba(255, 255, 255, 0.8);
@@ -460,29 +460,29 @@
   color: rgba(255, 255, 255, 0.8);
 }
 .swatch-red-white .grid-post .post-extras:before, [class*="swatch-"] .swatch-red-white .grid-post .post-extras:before {
-  background: #e74c3c;
+  background: #F03018;
 }
 .swatch-red-white .post-extras i, [class*="swatch-"] .swatch-red-white .post-extras i {
   color: white;
 }
 .swatch-red-white .list-fancy-icons li, .swatch-red-white.list-fancy-icons li, .swatch-red-white .list-fancy-icons .list-item, .swatch-red-white.list-fancy-icons .list-item, [class*="swatch-"] .swatch-red-white .list-fancy-icons li, [class*="swatch-"] .swatch-red-white.list-fancy-icons li, [class*="swatch-"] .swatch-red-white .list-fancy-icons .list-item, [class*="swatch-"] .swatch-red-white.list-fancy-icons .list-item {
-  background: #e74c3c;
+  background: #F03018;
 }
 .swatch-red-white .list-fancy-icons li .round, .swatch-red-white .list-fancy-icons li .square, .swatch-red-white.list-fancy-icons li .round, .swatch-red-white.list-fancy-icons li .square, .swatch-red-white .list-fancy-icons .list-item .round, .swatch-red-white .list-fancy-icons .list-item .square, .swatch-red-white.list-fancy-icons .list-item .round, .swatch-red-white.list-fancy-icons .list-item .square, [class*="swatch-"] .swatch-red-white .list-fancy-icons li .round, [class*="swatch-"] .swatch-red-white .list-fancy-icons li .square, [class*="swatch-"] .swatch-red-white.list-fancy-icons li .round, [class*="swatch-"] .swatch-red-white.list-fancy-icons li .square, [class*="swatch-"] .swatch-red-white .list-fancy-icons .list-item .round, [class*="swatch-"] .swatch-red-white .list-fancy-icons .list-item .square, [class*="swatch-"] .swatch-red-white.list-fancy-icons .list-item .round, [class*="swatch-"] .swatch-red-white.list-fancy-icons .list-item .square {
   background: white;
 }
 .swatch-red-white .list-fancy-icons li i, .swatch-red-white.list-fancy-icons li i, .swatch-red-white .list-fancy-icons .list-item i, .swatch-red-white.list-fancy-icons .list-item i, [class*="swatch-"] .swatch-red-white .list-fancy-icons li i, [class*="swatch-"] .swatch-red-white.list-fancy-icons li i, [class*="swatch-"] .swatch-red-white .list-fancy-icons .list-item i, [class*="swatch-"] .swatch-red-white.list-fancy-icons .list-item i {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .box-inner, [class*="swatch-"] .swatch-red-white .box-inner {
   background: white;
 }
 .swatch-red-white .box-inner i, [class*="swatch-"] .swatch-red-white .box-inner i {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .box-badge, [class*="swatch-"] .swatch-red-white .box-badge {
   background: rgba(255, 255, 255, 0.9);
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .bordered:after, [class*="swatch-"] .swatch-red-white .bordered:after {
   background: white;
@@ -492,7 +492,7 @@
 }
 .swatch-red-white #infscr-loading, [class*="swatch-"] .swatch-red-white #infscr-loading {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .counter .value, [class*="swatch-"] .swatch-red-white .counter .value {
   color: white;
@@ -505,29 +505,29 @@
 }
 .swatch-red-white .mejs-audio, [class*="swatch-"] .swatch-red-white .mejs-audio {
   background-color: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .mejs-container .mejs-controls .mejs-time span, [class*="swatch-"] .swatch-red-white .mejs-container .mejs-controls .mejs-time span {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .mejs-controls .mejs-button button:hover, [class*="swatch-"] .swatch-red-white .mejs-controls .mejs-button button:hover {
   background-color: transparent;
 }
 .swatch-red-white .mejs-controls .mejs-time-rail .mejs-time-loaded, [class*="swatch-"] .swatch-red-white .mejs-controls .mejs-time-rail .mejs-time-loaded {
-  background-color: #e74c3c;
+  background-color: #F03018;
 }
 .swatch-red-white .mejs-controls .mejs-time-rail .mejs-time-current, .swatch-red-white .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, [class*="swatch-"] .swatch-red-white .mejs-controls .mejs-time-rail .mejs-time-current, [class*="swatch-"] .swatch-red-white .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
   background-color: rgba(0, 0, 0, 0.075);
 }
 .swatch-red-white .hex, [class*="swatch-"] .swatch-red-white .hex {
   background-color: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .hex a, .swatch-red-white .hex i, [class*="swatch-"] .swatch-red-white .hex a, [class*="swatch-"] .swatch-red-white .hex i {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .hex a:hover, .swatch-red-white .hex:hover, [class*="swatch-"] .swatch-red-white .hex a:hover, [class*="swatch-"] .swatch-red-white .hex:hover {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .hex:before, [class*="swatch-"] .swatch-red-white .hex:before {
   border-bottom-color: white;
@@ -536,7 +536,7 @@
   border-top-color: white;
 }
 .swatch-red-white .hex-left:after, .swatch-red-white .hex-left:before, .swatch-red-white .hex-right:after, .swatch-red-white .hex-right:before, [class*="swatch-"] .swatch-red-white .hex-left:after, [class*="swatch-"] .swatch-red-white .hex-left:before, [class*="swatch-"] .swatch-red-white .hex-right:after, [class*="swatch-"] .swatch-red-white .hex-right:before {
-  background-color: #e74c3c;
+  background-color: #F03018;
 }
 .swatch-red-white .pricing-head, .swatch-red-white .pricing-body, [class*="swatch-"] .swatch-red-white .pricing-head, [class*="swatch-"] .swatch-red-white .pricing-body {
   background: #73bfc1;
@@ -563,7 +563,7 @@
 }
 .swatch-red-white .flex-directions-fancy .flex-direction-nav a, [class*="swatch-"] .swatch-red-white .flex-directions-fancy .flex-direction-nav a {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .flex-control-nav a, [class*="swatch-"] .swatch-red-white .flex-control-nav a {
   background: rgba(255, 255, 255, 0.5);
@@ -593,23 +593,23 @@
   background: white;
 }
 .swatch-red-white .sidebar-widget .post-icon i, [class*="swatch-"] .swatch-red-white .sidebar-widget .post-icon i {
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .widget_tag_cloud ul a, [class*="swatch-"] .swatch-red-white .widget_tag_cloud ul a {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .widget_tag_cloud ul a:hover, [class*="swatch-"] .swatch-red-white .widget_tag_cloud ul a:hover {
   background: rgba(255, 255, 255, 0.9);
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .widget_calendar tbody a, [class*="swatch-"] .swatch-red-white .widget_calendar tbody a {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .widget_calendar tbody a:hover, [class*="swatch-"] .swatch-red-white .widget_calendar tbody a:hover {
   background: #ededed;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .widget_calendar tfoot, [class*="swatch-"] .swatch-red-white .widget_calendar tfoot {
   background: rgba(0, 0, 0, 0.075);
@@ -729,15 +729,15 @@
 }
 .swatch-red-white .product-category h3, [class*="swatch-"] .swatch-red-white .product-category h3 {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .product-category h3 mark, [class*="swatch-"] .swatch-red-white .product-category h3 mark {
   background: rgba(0, 0, 0, 0.075);
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .product-nav a i, [class*="swatch-"] .swatch-red-white .product-nav a i {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .product-images figcaption, [class*="swatch-"] .swatch-red-white .product-images figcaption {
   box-shadow: none;
@@ -758,7 +758,7 @@
   border-color: rgba(26, 26, 26, 0.075);
 }
 .swatch-red-white .single-product-extras input, .swatch-red-white .single-product-extras textarea, [class*="swatch-"] .swatch-red-white .single-product-extras input, [class*="swatch-"] .swatch-red-white .single-product-extras textarea {
-  background: #e74c3c;
+  background: #F03018;
   color: white;
 }
 .swatch-red-white .single-product-extras input[type="submit"]:hover, [class*="swatch-"] .swatch-red-white .single-product-extras input[type="submit"]:hover {
@@ -775,15 +775,15 @@
   border-color: rgba(0, 0, 0, 0.075);
 }
 .swatch-red-white .cart-actions, [class*="swatch-"] .swatch-red-white .cart-actions {
-  background: #e74c3c;
+  background: #F03018;
 }
 .swatch-red-white .widget_product_tag_cloud a, [class*="swatch-"] .swatch-red-white .widget_product_tag_cloud a {
   background: white;
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .widget_product_tag_cloud a:hover, [class*="swatch-"] .swatch-red-white .widget_product_tag_cloud a:hover {
   background: rgba(255, 255, 255, 0.9);
-  color: #e74c3c;
+  color: #F03018;
 }
 .swatch-red-white .product_list_widget .star-rating, [class*="swatch-"] .swatch-red-white .product_list_widget .star-rating {
   color: white;
@@ -795,5 +795,5 @@
   background: white;
 }
 .swatch-red-white .widget_product_search form:after, [class*="swatch-"] .swatch-red-white .widget_product_search form:after {
-  color: #e74c3c;
+  color: #F03018;
 }
