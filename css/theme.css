@@ -8493,7 +8493,7 @@ img {
 /* BASIC COLORS */
 /* ------------ */
 body {
-  background-color: #e74c3c;
+  background-color: #303030;
 }
 
 /* -- Buttons -- */
@@ -8711,7 +8711,7 @@ input[type="color"]::-webkit-input-placeholder,
 }
 
 .progress-bar-danger.progress-bar {
-  background-color: #e74c3c;
+  background-color: #303030;
 }
 
 .progress-bar-success.progress-bar {
@@ -11858,7 +11858,7 @@ div.variations .select-wrap select, .variation-wrap .select-wrap select {
 .woocommerce-invalid input, .woocommerce-invalid input, input.woocommerce-invalid,
 .woocommerce-invalid textarea, textarea.woocommerce-invalid {
   border: 0;
-  box-shadow: 0px -4px 0px #e74c3c inset;
+  box-shadow: 0px -4px 0px #303030 inset;
 }
 
 /* - Order review on the right - */

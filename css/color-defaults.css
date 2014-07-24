@@ -184,16 +184,16 @@
 }
 
 .go-top {
-  background: #e32f1c !important;
+  background: #303030 !important;
 }
 .go-top i {
   color: white;
 }
 .go-top:before {
-  border-right-color: #e32f1c !important;
+  border-right-color: #303030 !important;
 }
 .go-top:after {
-  border-left-color: #e32f1c !important;
+  border-left-color: #303030 !important;
 }
 
 .audioplayer {
