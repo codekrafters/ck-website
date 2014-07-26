@@ -55,11 +55,11 @@
             <section class="section swatch-dark-white" id="home">
                 <div class="container">
                     <header class="section-header underline">
-                        <h1 class="headline hyper hairline">code krafters</h1>
+                        <h1 class="headline hyper hairline" id="ck_title">code krafters</h1>
                         <p class="big quotes">build and deliver</p>
                         <p class="big quotes">code should read like prose</p>
                         <p class="big quotes">never scroll to read a method</p>
-                        <p class="big quotes">code is design, and happens to run</p>
+                        <p class="big quotes">code is design, and it runs</p>
                         <p class="big quotes">one method, one behavior</p>
                         <p class="big quotes">code is thoughtful</p>
                         <p class="big quotes">methods don't leave artifacts</p>
@@ -350,6 +350,10 @@
         <script type="text/javascript">
 (function() {
 
+    // fade in the main ck title
+    $("#ck_title").fadeIn(1500);
+
+    // Start the fade in/out of the quotes below the CK title
     var quotes = $(".quotes");
     var quoteIndex = -1;
     
