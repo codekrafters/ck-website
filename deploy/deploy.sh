@@ -99,7 +99,7 @@ rm -rf .git
 rm -rf deploy
 cd ..
 echo "********************************"
-ncftpput -R -v -u 'codekrafters' -p "$FTP_PWD" c40.46b.myftpupload.com / ck-website/
+ncftpput -R -v -u 'codekrafters' -p "$FTP_PWD" c40.46b.myftpupload.com / ck-website/*
 echo "********************************"
 echo ""
 echo "update completed"
