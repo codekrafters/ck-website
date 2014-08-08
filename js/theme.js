@@ -639,25 +639,26 @@ jQuery(document).ready(function( $ ) {
         event.preventDefault();
         $('html, body').animate({scrollTop: 0}, 300);
     });
+	
+	//if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+		// Init On scroll animations
+	    $('.os-animation').each( function() {
+	        var osElement = $(this),
+	            osAnimationClass = osElement.attr('data-os-animation'),
+	            osAnimationDelay = osElement.attr('data-os-animation-delay');
 
-    // Init On scroll animations
-    $('.os-animation').each( function() {
-        var osElement = $(this),
-            osAnimationClass = osElement.attr('data-os-animation'),
-            osAnimationDelay = osElement.attr('data-os-animation-delay');
+	        osElement.css('-webkit-animation-delay', osAnimationDelay);
+	        osElement.css('-moz-animation-delay', osAnimationDelay);
+	        osElement.css('animation-delay', osAnimationDelay);
 
-        osElement.css('-webkit-animation-delay', osAnimationDelay);
-        osElement.css('-moz-animation-delay', osAnimationDelay);
-        osElement.css('animation-delay', osAnimationDelay);
-
-        osElement.waypoint(function() {
-            $(this).addClass('animated').addClass(osAnimationClass);
-        },{
-            triggerOnce: true,
-            offset: '80%'
-        });
-    });
-
+	        osElement.waypoint(function() {
+	            $(this).addClass('animated').addClass(osAnimationClass);
+	        },{
+	            triggerOnce: true,
+	            offset: '80%'
+	        });
+	    });
+	//}
 
     var $scrollContainer = $('div.isotope-infinite');
     if($scrollContainer.length > 0){
