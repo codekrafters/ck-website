@@ -1,0 +1,207 @@
+.quotes { display: none; }
+#ck_title { display: none; }
+
+.os-animation {
+  opacity: 1;
+}
+.os-animation.animated {
+  opacity: 1;
+}
+
+/* - Text aligns classes - */
+.text-left {
+  text-align: center !important;
+}
+
+.media-clear {
+	clear: both;
+}
+
+.animated {
+}
+
+.animated.hinge {
+}
+
+.bounce {
+}
+
+.flash {
+}
+
+.pulse {
+}
+
+.shake {
+}
+
+.swing {
+}
+
+.tada {
+}
+
+.wobble {
+}
+
+.bounceIn {
+}
+
+.bounceInDown {
+}
+
+.bounceInLeft {
+}
+
+.bounceInRight {
+}
+
+.bounceInUp {
+}
+
+.bounceOut {
+} 
+
+.bounceOutDown {
+}
+
+.bounceOutLeft {
+}
+
+.bounceOutRight {
+}
+
+.bounceOutUp {
+}
+
+.fadeIn {
+}
+
+.fadeInDown {
+}
+
+.fadeInDownBig {
+}
+
+.fadeInLeft {
+}
+
+.fadeInLeftBig {
+}
+
+.fadeInRight {
+}
+
+.fadeInRightBig {
+}
+
+.fadeInUp {
+}
+
+.fadeInUpBig {
+}
+
+.fadeOut {
+}
+
+.fadeOutDown {
+}
+
+.fadeOutDownBig {
+}
+
+.fadeOutLeft {
+}
+
+.fadeOutLeftBig {
+}
+
+.fadeOutRight {
+}
+
+.fadeOutRightBig {
+}
+
+.fadeOutUp {
+}
+
+.fadeOutUpBig {
+}
+
+.animated.flip {
+}
+
+.flipInX {
+}
+
+.flipInY {
+}
+
+.flipOutX {
+}
+
+.flipOutY {
+}
+
+.lightSpeedIn {
+}
+
+.lightSpeedOut {
+}
+
+.rotateIn {
+}
+
+.rotateInDownLeft {
+}
+
+.rotateInDownRight {
+}
+
+.rotateInUpLeft {
+}
+
+.rotateInUpRight {
+}
+
+.rotateOut {
+}
+
+.rotateOutDownLeft {
+}
+
+.rotateOutDownRight {
+}
+
+.rotateOutUpLeft {
+}
+
+.rotateOutUpRight {
+}
+
+.slideInDown {
+}
+
+.slideInLeft {
+}
+
+.slideInRight {
+}
+
+.slideOutLeft {
+}
+
+.slideOutRight {
+}
+
+.slideOutUp {
+}
+
+.hinge {
+}
+
+.rollIn {
+}
+
+.rollOut {
+}
