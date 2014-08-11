@@ -39,4 +39,3 @@ else
 	echo "All href links are pointing to minified JS"
 fi
 echo ""
-fi
