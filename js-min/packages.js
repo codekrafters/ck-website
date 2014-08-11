@@ -1,8 +1,3 @@
-/*
- 
- @author Robert Fleischmann <rendro87@gmail.com> (http://robert-fleischmann.de)
- @version 2.1.4
-*/
 (function(c,b){function d(a){var b=a.length,c=h.type(a);return h.isWindow(a)?!1:1===a.nodeType&&b?!0:"array"===c||"function"!==c&&(0===b||"number"===typeof b&&0<b&&b-1 in a)}function a(a){var b=X[a]={};h.each(a.match(U)||[],function(a,x){b[x]=!0});return b}function e(){Object.defineProperty(this.cache={},0,{get:function(){return{}}});this.expando=h.expando+Math.random()}function f(a,c,e){if(e===b&&1===a.nodeType)if(e="data-"+c.replace(Sa,"-$1").toLowerCase(),e=a.getAttribute(e),"string"===typeof e){try{e=
 "true"===e?!0:"false"===e?!1:"null"===e?null:+e+""===e?+e:oa.test(e)?JSON.parse(e):e}catch(f){}Q.set(a,c,e)}else e=b;return e}function g(){return!0}function k(){return!1}function l(){try{return A.activeElement}catch(a){}}function m(a,b){for(;(a=a[b])&&1!==a.nodeType;);return a}function n(a,b,c){if(h.isFunction(b))return h.grep(a,function(a,x){return!!b.call(a,x,a)!==c});if(b.nodeType)return h.grep(a,function(a){return a===b!==c});if("string"===typeof b){if(R.test(b))return h.filter(b,a,c);b=h.filter(b,
 a)}return h.grep(a,function(a){return 0<=aa.call(b,a)!==c})}function q(a,b){return h.nodeName(a,"table")&&h.nodeName(1===b.nodeType?b:b.firstChild,"tr")?a.getElementsByTagName("tbody")[0]||a.appendChild(a.ownerDocument.createElement("tbody")):a}function u(a){a.type=(null!==a.getAttribute("type"))+"/"+a.type;return a}function s(a){var b=za.exec(a.type);b?a.type=b[1]:a.removeAttribute("type");return a}function t(a,b){for(var c=a.length,e=0;e<c;e++)C.set(a[e],"globalEval",!b||C.get(b[e],"globalEval"))}
