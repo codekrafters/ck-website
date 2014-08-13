@@ -5295,6 +5295,12 @@ html[xmlns] .slides {
   margin-bottom: 16px;
 }
 
+.textwidget-tiny {
+	margin: 0;
+	padding: 0;
+	font-size: 11px !important;
+}
+
 /* - Search widget - */
 .widget_search form {
   margin-bottom: 0;
